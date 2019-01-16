@@ -1,0 +1,61 @@
+{
+  "uid" : "9e59505c23a2b630",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "fullName" : "VEDURF0010: Во время редактирования данных пользователя нельзя сохранить имя пользователя, которое уже зарегистрировано, т.е. нельзя создать дубликат имеющихся данных.1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "historyId" : "5ffa44b0273737899738d04e609b7464",
+  "time" : {
+    "start" : 1546855686743,
+    "stop" : 1546855687096,
+    "duration" : 353
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c646c7fa5fa57e36",
+      "name" : "Screenshot",
+      "source" : "c646c7fa5fa57e36.png",
+      "type" : "image/png",
+      "size" : 24329
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0010: Во время редактирования данных пользователя нельзя сохранить имя пользователя, которое уже зарегистрировано, т.е. нельзя создать дубликат имеющихся данных"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0010: Во время редактирования данных пользователя нельзя сохранить имя пользователя, которое уже зарегистрировано, т.е. нельзя создать дубликат имеющихся данных"
+  }, {
+    "name" : "testMethod",
+    "value" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0010: Во время редактирования данных пользователя нельзя сохранить имя пользователя, которое уже зарегистрировано, т.е. нельзя создать дубликат имеющихся данных"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e59505c23a2b630.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546855691737' stop='1546855692907'>
+    <name>VEDURF0012: Нельзя удалить редактируемую в данный момент запись</name>
+    <title>VEDURF0012: Нельзя удалить редактируемую в данный момент запись</title>
+    <test-cases>
+        <test-case start='1546855691737' status='passed' stop='1546855692273'>
+            <name>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</name>
+            <title>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='996275a7-15b7-45c7-b47d-33190b59c2a7-attachment.png' type='image/png' size='23646'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546855692273' status='passed' stop='1546855692367'>
+            <name>2. Проверьте наличие данных в таблице TableName</name>
+            <title>2. Проверьте наличие данных в таблице TableName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5cfd1d17-b498-4eb9-85aa-a8ac9ce6144e-attachment.png' type='image/png' size='23646'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546855692367' status='passed' stop='1546855692460'>
+            <name>3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия</name>
+            <title>3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='69b42629-2a87-44ce-bc95-00a903b7a29b-attachment.png' type='image/png' size='23646'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546855692460' status='passed' stop='1546855692556'>
+            <name>4. Проверьте доступна ли кнопка “Remove” в данной строке для нажатия</name>
+            <title>4. Проверьте доступна ли кнопка “Remove” в данной строке для нажатия</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8e43b558-ffd0-48a9-a36e-97e918662a96-attachment.png' type='image/png' size='23646'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546855692556' status='failed' stop='1546855692906'>
+            <name>5. Нажмите кнопку “Edit”</name>
+            <title>5. Нажмите кнопку “Edit”</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8816b845-d804-49ce-bc26-c6010860079e-attachment.png' type='image/png' size='22629'/>
+            </attachments>
+            <failure>
+                <message>Expected true to be false.</message>
+                <stack-trace>Error: Failed expectation
+                    at ListOfUsers.buttonRemoveIsDisabled (C:\Users\AleRom\Documents\server\testingCoursesFinal\PO\ListOfUsers.js:78:47)
+                    at UserContext.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0012.js:32:21)
+                    at C:\Users\AleRom\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\AleRom\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\AleRom\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\AleRom\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\AleRom\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\AleRom\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\AleRom\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,26 @@
+{
+  "name": "testingcourses",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "^4.1.1",
+    "express": "~4.16.0",
+    "http-errors": "^1.7.1",
+    "jasmine-allure-reporter": "^1.0.2",
+    "morgan": "~1.9.0",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.8.1",
+    "jasmine": "^3.3.1"
+  },
+  "scripts": {
+    "pretest": "rm -rf allure-report",
+    "test": "protractor conf.js",
+    "posttest": "allure generate allure-results --clean -o allure-report || true"
+  }
+}

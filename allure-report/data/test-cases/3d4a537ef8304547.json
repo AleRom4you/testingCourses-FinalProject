@@ -1,0 +1,61 @@
+{
+  "uid" : "3d4a537ef8304547",
+  "name" : "2. Проверьте наличие данных в таблице TableName, как минимум 2 пользователя",
+  "fullName" : "VEDURF0010: Во время редактирования данных пользователя нельзя сохранить имя пользователя, которое уже зарегистрировано, т.е. нельзя создать дубликат имеющихся данных.2. Проверьте наличие данных в таблице TableName, как минимум 2 пользователя",
+  "historyId" : "c86d4d6362dd19183e807bab0d5b86d6",
+  "time" : {
+    "start" : 1546855687096,
+    "stop" : 1546855688363,
+    "duration" : 1267
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1f545e84680a4175",
+      "name" : "Screenshot",
+      "source" : "1f545e84680a4175.png",
+      "type" : "image/png",
+      "size" : 24357
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0010: Во время редактирования данных пользователя нельзя сохранить имя пользователя, которое уже зарегистрировано, т.е. нельзя создать дубликат имеющихся данных"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0010: Во время редактирования данных пользователя нельзя сохранить имя пользователя, которое уже зарегистрировано, т.е. нельзя создать дубликат имеющихся данных"
+  }, {
+    "name" : "testMethod",
+    "value" : "2. Проверьте наличие данных в таблице TableName, как минимум 2 пользователя"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0010: Во время редактирования данных пользователя нельзя сохранить имя пользователя, которое уже зарегистрировано, т.е. нельзя создать дубликат имеющихся данных"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d4a537ef8304547.json",
+  "parameterValues" : [ ]
+}

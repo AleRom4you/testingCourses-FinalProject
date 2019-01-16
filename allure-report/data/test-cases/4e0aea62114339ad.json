@@ -1,0 +1,61 @@
+{
+  "uid" : "4e0aea62114339ad",
+  "name" : "2. Проверьте наличие данных в таблице TableName",
+  "fullName" : "VEDURF0008: Редактирование данных зарегистрированного пользователя.2. Проверьте наличие данных в таблице TableName",
+  "historyId" : "54efe2edb387f55b88ad22bcd8c0e544",
+  "time" : {
+    "start" : 1546855683906,
+    "stop" : 1546855684009,
+    "duration" : 103
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8dba0a6ecd061724",
+      "name" : "Screenshot",
+      "source" : "8dba0a6ecd061724.png",
+      "type" : "image/png",
+      "size" : 23646
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0008: Редактирование данных зарегистрированного пользователя"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0008: Редактирование данных зарегистрированного пользователя"
+  }, {
+    "name" : "testMethod",
+    "value" : "2. Проверьте наличие данных в таблице TableName"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0008: Редактирование данных зарегистрированного пользователя"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e0aea62114339ad.json",
+  "parameterValues" : [ ]
+}

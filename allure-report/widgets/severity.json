@@ -1,0 +1,581 @@
+[ {
+  "uid" : "c6f2688528909cdd",
+  "name" : "5. Заполните поля “Name” и “Email” такими же данными, как на шаге 2",
+  "time" : {
+    "start" : 1546855682860,
+    "stop" : 1546855683099,
+    "duration" : 239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adb6739395c5828b",
+  "name" : "3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия",
+  "time" : {
+    "start" : 1546855690286,
+    "stop" : 1546855690389,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0a67281f2a9563a",
+  "name" : "4. Нажмите на кнопку “Reset Form”",
+  "time" : {
+    "start" : 1546855679939,
+    "stop" : 1546855680386,
+    "duration" : 447
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0abe979e09f473f",
+  "name" : "7. Отредактируйте любое поле формы FormName",
+  "time" : {
+    "start" : 1546855690987,
+    "stop" : 1546855691176,
+    "duration" : 189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9b992955e7c994f",
+  "name" : "3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия",
+  "time" : {
+    "start" : 1546855688363,
+    "stop" : 1546855688472,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c91d094abf436459",
+  "name" : "4. Нажмите данную кнопку",
+  "time" : {
+    "start" : 1546855684114,
+    "stop" : 1546855684430,
+    "duration" : 316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e59505c23a2b630",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "time" : {
+    "start" : 1546855686743,
+    "stop" : 1546855687096,
+    "duration" : 353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90f97d6389a08c71",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "time" : {
+    "start" : 1546855669379,
+    "stop" : 1546855669941,
+    "duration" : 562
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97e244aee9e96989",
+  "name" : "4. Нажмите на кнопку “Add”",
+  "time" : {
+    "start" : 1546855682525,
+    "stop" : 1546855682860,
+    "duration" : 335
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d88511a6ef17aec2",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "time" : {
+    "start" : 1546855685444,
+    "stop" : 1546855685820,
+    "duration" : 376
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b20712c2681fec63",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "time" : {
+    "start" : 1546855681709,
+    "stop" : 1546855682116,
+    "duration" : 407
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "160a7b10c59ea31e",
+  "name" : "2. Заполните поля “Name”, “Email” и “Address” корректными данными",
+  "time" : {
+    "start" : 1546855679512,
+    "stop" : 1546855679840,
+    "duration" : 328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66ee54ca76e7816d",
+  "name" : "2. Проверьте наличие данных в таблице TableName",
+  "time" : {
+    "start" : 1546855690183,
+    "stop" : 1546855690286,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9512bda3a0819daf",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "time" : {
+    "start" : 1546855678961,
+    "stop" : 1546855679512,
+    "duration" : 551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdb3d983307d88dd",
+  "name" : "3. Введите в поле “Name” любое Name из \"Valid names\" (позитивный тест)",
+  "time" : {
+    "start" : 1546855673957,
+    "stop" : 1546855674440,
+    "duration" : 483
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc4827b20f4a1b7c",
+  "name" : "3. Сотрите введённые данные",
+  "time" : {
+    "start" : 1546855678627,
+    "stop" : 1546855678954,
+    "duration" : 327
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "977a2d33662353f",
+  "name" : "5. Проверьте, что выбранные данные доступны в полях формы FormName",
+  "time" : {
+    "start" : 1546855690704,
+    "stop" : 1546855690884,
+    "duration" : 180
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2896ed7f3f13fded",
+  "name" : "4. Проверьте доступна ли кнопка “Remove” в данной строке для нажатия",
+  "time" : {
+    "start" : 1546855692460,
+    "stop" : 1546855692556,
+    "duration" : 96
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b25183ce647400dc",
+  "name" : "3. Проверьте, что кнопка “Add” доступна для нажатия",
+  "time" : {
+    "start" : 1546855682399,
+    "stop" : 1546855682524,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "738c449765920c86",
+  "name" : "2. Заполните поля “Name”, “Email” и “Address” корректными данными",
+  "time" : {
+    "start" : 1546855682116,
+    "stop" : 1546855682399,
+    "duration" : 283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6a67911fc10b862",
+  "name" : "2. Заполните поля “Name”, “Email” и “Address” корректными данными",
+  "time" : {
+    "start" : 1546855680774,
+    "stop" : 1546855681079,
+    "duration" : 305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d780f73cbceea608",
+  "name" : "2. Заполните поля “Name” и “Email” корректными данными",
+  "time" : {
+    "start" : 1546855678286,
+    "stop" : 1546855678627,
+    "duration" : 341
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd770be6fa08ee8f",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "time" : {
+    "start" : 1546855680394,
+    "stop" : 1546855680773,
+    "duration" : 379
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d4a537ef8304547",
+  "name" : "2. Проверьте наличие данных в таблице TableName, как минимум 2 пользователя",
+  "time" : {
+    "start" : 1546855687096,
+    "stop" : 1546855688363,
+    "duration" : 1267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c45ac7b11612125",
+  "name" : "2. Введите в поле “Email” любой Email из \"Invalid email addresses\" (негативный тест)",
+  "time" : {
+    "start" : 1546855674890,
+    "stop" : 1546855676080,
+    "duration" : 1190
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "68ccd508b97b671f",
+  "name" : "3. Введите в поле “Name” Name2 (позитивный тест)",
+  "time" : {
+    "start" : 1546855669055,
+    "stop" : 1546855669332,
+    "duration" : 277
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f90ea425f9dffbb0",
+  "name" : "4. Нажмите данную кнопку",
+  "time" : {
+    "start" : 1546855688472,
+    "stop" : 1546855688990,
+    "duration" : 518
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99e74e3ea369ca7",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "time" : {
+    "start" : 1546855667620,
+    "stop" : 1546855668735,
+    "duration" : 1115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ffef21addcc72b7",
+  "name" : "3. Проверьте, что кнопка “Reset Form” доступна для нажатия",
+  "time" : {
+    "start" : 1546855679841,
+    "stop" : 1546855679939,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae937fe2c43975af",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "time" : {
+    "start" : 1546855691737,
+    "stop" : 1546855692273,
+    "duration" : 536
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d03ee53f199ed5ed",
+  "name" : "6. Повторите шаги 3-4",
+  "time" : {
+    "start" : 1546855683100,
+    "stop" : 1546855683553,
+    "duration" : 453
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93e3b4e587b41dc3",
+  "name" : "2. Введите в поле “Name” любое Name из \"Invalid names\" (негативный тест)",
+  "time" : {
+    "start" : 1546855669941,
+    "stop" : 1546855673956,
+    "duration" : 4015
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e0aea62114339ad",
+  "name" : "2. Проверьте наличие данных в таблице TableName",
+  "time" : {
+    "start" : 1546855683906,
+    "stop" : 1546855684009,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39708ef6d953af9a",
+  "name" : "3. Проверьте, что кнопка “Add” доступна для нажатия",
+  "time" : {
+    "start" : 1546855681079,
+    "stop" : 1546855681209,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20aabecfc5f2c055",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "time" : {
+    "start" : 1546855683558,
+    "stop" : 1546855683906,
+    "duration" : 348
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9cab3449d11c52b",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "time" : {
+    "start" : 1546855677885,
+    "stop" : 1546855678286,
+    "duration" : 401
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a68dd259892ea49",
+  "name" : "6. Введите новые корректные данные",
+  "time" : {
+    "start" : 1546855684595,
+    "stop" : 1546855684973,
+    "duration" : 378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc8261594aeb1a80",
+  "name" : "3. Введите в поле “Email” любой Email из \"Valid email addresses\" (позитивный тест)",
+  "time" : {
+    "start" : 1546855676080,
+    "stop" : 1546855677881,
+    "duration" : 1801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8f40200222f51b0",
+  "name" : "3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия",
+  "time" : {
+    "start" : 1546855692367,
+    "stop" : 1546855692460,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4280b33d1b503d12",
+  "name" : "6. Нажмите “Update”",
+  "time" : {
+    "start" : 1546855684973,
+    "stop" : 1546855685438,
+    "duration" : 465
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2d513f9d8df75f0",
+  "name" : "4. Нажмите данную кнопку",
+  "time" : {
+    "start" : 1546855690389,
+    "stop" : 1546855690703,
+    "duration" : 314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11a74313fe08e8d9",
+  "name" : "3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия",
+  "time" : {
+    "start" : 1546855684010,
+    "stop" : 1546855684113,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "272f541157fdd7e7",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "time" : {
+    "start" : 1546855689790,
+    "stop" : 1546855690183,
+    "duration" : 393
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56e60bc7d60eb0c7",
+  "name" : "6. Нажмите “Update”",
+  "time" : {
+    "start" : 1546855689354,
+    "stop" : 1546855689783,
+    "duration" : 429
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "77de4beddcbab587",
+  "name" : "2. Введите в поле “Name” Name1 (негативный тест)",
+  "time" : {
+    "start" : 1546855668736,
+    "stop" : 1546855669055,
+    "duration" : 319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa515ecc3993d5ad",
+  "name" : "5. В открывшемся диалоговом окне нажмите кнопку “OK”",
+  "time" : {
+    "start" : 1546855686381,
+    "stop" : 1546855686739,
+    "duration" : 358
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "daa79c3d7c852cbf",
+  "name" : "5. Нажмите кнопку “Edit”",
+  "time" : {
+    "start" : 1546855692556,
+    "stop" : 1546855692906,
+    "duration" : 350
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d3c7a848aeba339",
+  "name" : "9. Нажмите “Reset Form”",
+  "time" : {
+    "start" : 1546855691275,
+    "stop" : 1546855691727,
+    "duration" : 452
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc2fc177228cf74d",
+  "name" : "2. Проверьте наличие данных в таблице TableName",
+  "time" : {
+    "start" : 1546855692273,
+    "stop" : 1546855692367,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8470211247ea034",
+  "name" : "2. Проверьте наличие данных в таблице TableName",
+  "time" : {
+    "start" : 1546855685820,
+    "stop" : 1546855685928,
+    "duration" : 108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f99d7bfe4bbe2365",
+  "name" : "3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Remove” в данной строке для нажатия",
+  "time" : {
+    "start" : 1546855685929,
+    "stop" : 1546855686041,
+    "duration" : 112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fbb9e90fef06427",
+  "name" : "6. Проверьте, что кнопка “Reset Form” недоступна для нажатия",
+  "time" : {
+    "start" : 1546855690884,
+    "stop" : 1546855690987,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5619d00521dc1d3e",
+  "name" : "5. Проверьте наличие выбранных данных в полях формы FormName",
+  "time" : {
+    "start" : 1546855684430,
+    "stop" : 1546855684594,
+    "duration" : 164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9df8dafbfc03647",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "time" : {
+    "start" : 1546855674444,
+    "stop" : 1546855674890,
+    "duration" : 446
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82ab4fb0d8bc59bc",
+  "name" : "4. Нажмите данную кнопку",
+  "time" : {
+    "start" : 1546855686041,
+    "stop" : 1546855686381,
+    "duration" : 340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "111d15866df89989",
+  "name" : "5. Отредактируйте данные на форме FormName так, чтобы они были такими же, как у другого пользователя из таблицы TableName",
+  "time" : {
+    "start" : 1546855688990,
+    "stop" : 1546855689354,
+    "duration" : 364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c321b9290f04e44",
+  "name" : "8. Проверьте, что кнопка “Reset Form” доступна для нажатия",
+  "time" : {
+    "start" : 1546855691176,
+    "stop" : 1546855691274,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f63289335b777d9",
+  "name" : "4. Нажмите на кнопку “Add”",
+  "time" : {
+    "start" : 1546855681209,
+    "stop" : 1546855681704,
+    "duration" : 495
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

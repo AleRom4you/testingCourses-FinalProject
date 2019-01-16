@@ -1,0 +1,61 @@
+{
+  "uid" : "5fbb9e90fef06427",
+  "name" : "6. Проверьте, что кнопка “Reset Form” недоступна для нажатия",
+  "fullName" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя.6. Проверьте, что кнопка “Reset Form” недоступна для нажатия",
+  "historyId" : "9c1d2c4b6fee9e7295aeefcdc29eb360",
+  "time" : {
+    "start" : 1546855690884,
+    "stop" : 1546855690987,
+    "duration" : 103
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "615c4ab46646c0eb",
+      "name" : "Screenshot",
+      "source" : "615c4ab46646c0eb.png",
+      "type" : "image/png",
+      "size" : 22629
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя"
+  }, {
+    "name" : "testMethod",
+    "value" : "6. Проверьте, что кнопка “Reset Form” недоступна для нажатия"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5fbb9e90fef06427.json",
+  "parameterValues" : [ ]
+}

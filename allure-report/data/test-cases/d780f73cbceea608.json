@@ -1,0 +1,61 @@
+{
+  "uid" : "d780f73cbceea608",
+  "name" : "2. Заполните поля “Name” и “Email” корректными данными",
+  "fullName" : "VEDURF0004: Поля \"Name\" и \"Email\" являются обязательными для заполнения.2. Заполните поля “Name” и “Email” корректными данными",
+  "historyId" : "f6319b53b76283c602b7afa3e79a5a2a",
+  "time" : {
+    "start" : 1546855678286,
+    "stop" : 1546855678627,
+    "duration" : 341
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "23cca369a84903b8",
+      "name" : "Screenshot",
+      "source" : "23cca369a84903b8.png",
+      "type" : "image/png",
+      "size" : 24992
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0004: Поля \"Name\" и \"Email\" являются обязательными для заполнения"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0004: Поля \"Name\" и \"Email\" являются обязательными для заполнения"
+  }, {
+    "name" : "testMethod",
+    "value" : "2. Заполните поля “Name” и “Email” корректными данными"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0004: Поля \"Name\" и \"Email\" являются обязательными для заполнения"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d780f73cbceea608.json",
+  "parameterValues" : [ ]
+}

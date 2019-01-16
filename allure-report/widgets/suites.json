@@ -1,0 +1,114 @@
+{
+  "total" : 12,
+  "items" : [ {
+    "uid" : "bdb4a0594be55a3d3359d16c92416fb2",
+    "name" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "46629042c57cabf87fb779577f499b3a",
+    "name" : "VEDURF0010: Во время редактирования данных пользователя нельзя сохранить имя пользователя, которое уже зарегистрировано, т.е. нельзя создать дубликат имеющихся данных",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "941adc9e1ffcab2d2bf104b825539b95",
+    "name" : "VEDURF0012: Нельзя удалить редактируемую в данный момент запись",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "8fd5958b096371eedee184705358ee44",
+    "name" : "VEDURF0002: Валидация введённых данных в поле “Name” работает корректно",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "30b29e77a86dbf80f39c84c06f2b4ff6",
+    "name" : "VEDURF0003: Формат введённых данных в поле \"Email\" обрабатывается корректно ",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "e374fec5c65b0eac3f348e7ffb0f10e0",
+    "name" : "VEDURF0004: Поля \"Name\" и \"Email\" являются обязательными для заполнения",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "388974b7ad125a913ece6d0f26297376",
+    "name" : "VEDURF0008: Редактирование данных зарегистрированного пользователя",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "889b0e7b6b0d1cee46ed7f35e455d4ae",
+    "name" : "VEDURF0007: В поле “Name” должны быть введены уникальные относительно таблицы TableName данные, т.е. двух и более одинаковых имён в таблице быть не должно",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "cf4e49a566f5a65cbb6803c607130359",
+    "name" : "VEDURF0009: Удаление данных зарегистрированного пользователя",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "dcda696c1ff722272f9f2ece85105735",
+    "name" : "VEDURF0005: Кнопка “Reset Form” по нажатию очищает введенные в текстовые поля данные",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

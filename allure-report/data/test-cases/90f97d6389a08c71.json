@@ -1,0 +1,61 @@
+{
+  "uid" : "90f97d6389a08c71",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "fullName" : "VEDURF0002: Валидация введённых данных в поле “Name” работает корректно.1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "historyId" : "88a717f1e74d8d16df724593dfcbe91a",
+  "time" : {
+    "start" : 1546855669379,
+    "stop" : 1546855669941,
+    "duration" : 562
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d8ae31f00497576f",
+      "name" : "Screenshot",
+      "source" : "d8ae31f00497576f.png",
+      "type" : "image/png",
+      "size" : 23646
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0002: Валидация введённых данных в поле “Name” работает корректно"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0002: Валидация введённых данных в поле “Name” работает корректно"
+  }, {
+    "name" : "testMethod",
+    "value" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0002: Валидация введённых данных в поле “Name” работает корректно"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90f97d6389a08c71.json",
+  "parameterValues" : [ ]
+}

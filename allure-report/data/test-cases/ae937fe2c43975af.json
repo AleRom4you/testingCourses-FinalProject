@@ -1,0 +1,61 @@
+{
+  "uid" : "ae937fe2c43975af",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "fullName" : "VEDURF0012: Нельзя удалить редактируемую в данный момент запись.1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "historyId" : "2eab1e8f50a0112bdd6a7fdce62f2cdb",
+  "time" : {
+    "start" : 1546855691737,
+    "stop" : 1546855692273,
+    "duration" : 536
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "26d8d2fc2a1b14dc",
+      "name" : "Screenshot",
+      "source" : "26d8d2fc2a1b14dc.png",
+      "type" : "image/png",
+      "size" : 23646
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0012: Нельзя удалить редактируемую в данный момент запись"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0012: Нельзя удалить редактируемую в данный момент запись"
+  }, {
+    "name" : "testMethod",
+    "value" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0012: Нельзя удалить редактируемую в данный момент запись"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae937fe2c43975af.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,61 @@
+{
+  "uid" : "11a74313fe08e8d9",
+  "name" : "3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия",
+  "fullName" : "VEDURF0008: Редактирование данных зарегистрированного пользователя.3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия",
+  "historyId" : "5699d323a1b13ef2d776fab7d4acb5f5",
+  "time" : {
+    "start" : 1546855684010,
+    "stop" : 1546855684113,
+    "duration" : 103
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5f43e613be1820c0",
+      "name" : "Screenshot",
+      "source" : "5f43e613be1820c0.png",
+      "type" : "image/png",
+      "size" : 23646
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0008: Редактирование данных зарегистрированного пользователя"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0008: Редактирование данных зарегистрированного пользователя"
+  }, {
+    "name" : "testMethod",
+    "value" : "3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0008: Редактирование данных зарегистрированного пользователя"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "11a74313fe08e8d9.json",
+  "parameterValues" : [ ]
+}

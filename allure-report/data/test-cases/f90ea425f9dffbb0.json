@@ -1,0 +1,61 @@
+{
+  "uid" : "f90ea425f9dffbb0",
+  "name" : "4. Нажмите данную кнопку",
+  "fullName" : "VEDURF0010: Во время редактирования данных пользователя нельзя сохранить имя пользователя, которое уже зарегистрировано, т.е. нельзя создать дубликат имеющихся данных.4. Нажмите данную кнопку",
+  "historyId" : "37e7f88daf43fcc0d5722cafe4832773",
+  "time" : {
+    "start" : 1546855688472,
+    "stop" : 1546855688990,
+    "duration" : 518
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4259e9e54900f2a9",
+      "name" : "Screenshot",
+      "source" : "4259e9e54900f2a9.png",
+      "type" : "image/png",
+      "size" : 23626
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0010: Во время редактирования данных пользователя нельзя сохранить имя пользователя, которое уже зарегистрировано, т.е. нельзя создать дубликат имеющихся данных"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0010: Во время редактирования данных пользователя нельзя сохранить имя пользователя, которое уже зарегистрировано, т.е. нельзя создать дубликат имеющихся данных"
+  }, {
+    "name" : "testMethod",
+    "value" : "4. Нажмите данную кнопку"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0010: Во время редактирования данных пользователя нельзя сохранить имя пользователя, которое уже зарегистрировано, т.е. нельзя создать дубликат имеющихся данных"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f90ea425f9dffbb0.json",
+  "parameterValues" : [ ]
+}

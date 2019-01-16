@@ -1,0 +1,61 @@
+{
+  "uid" : "4280b33d1b503d12",
+  "name" : "6. Нажмите “Update”",
+  "fullName" : "VEDURF0008: Редактирование данных зарегистрированного пользователя.6. Нажмите “Update”",
+  "historyId" : "a31b71d7700b8821b09a3b1658698753",
+  "time" : {
+    "start" : 1546855684973,
+    "stop" : 1546855685438,
+    "duration" : 465
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "28c5b0ca7a72cf7f",
+      "name" : "Screenshot",
+      "source" : "28c5b0ca7a72cf7f.png",
+      "type" : "image/png",
+      "size" : 23696
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0008: Редактирование данных зарегистрированного пользователя"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0008: Редактирование данных зарегистрированного пользователя"
+  }, {
+    "name" : "testMethod",
+    "value" : "6. Нажмите “Update”"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0008: Редактирование данных зарегистрированного пользователя"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4280b33d1b503d12.json",
+  "parameterValues" : [ ]
+}

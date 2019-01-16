@@ -1,0 +1,61 @@
+{
+  "uid" : "7f63289335b777d9",
+  "name" : "4. Нажмите на кнопку “Add”",
+  "fullName" : "VEDURF0006: Кнопка “Add” добавляет заполненные на форме FormName данные пользователя в таблицу TableName.4. Нажмите на кнопку “Add”",
+  "historyId" : "a284e38dd78ab1a863af4c8f489f85e3",
+  "time" : {
+    "start" : 1546855681209,
+    "stop" : 1546855681704,
+    "duration" : 495
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c53f8990a53e4e28",
+      "name" : "Screenshot",
+      "source" : "c53f8990a53e4e28.png",
+      "type" : "image/png",
+      "size" : 23675
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0006: Кнопка “Add” добавляет заполненные на форме FormName данные пользователя в таблицу TableName"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0006: Кнопка “Add” добавляет заполненные на форме FormName данные пользователя в таблицу TableName"
+  }, {
+    "name" : "testMethod",
+    "value" : "4. Нажмите на кнопку “Add”"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0006: Кнопка “Add” добавляет заполненные на форме FormName данные пользователя в таблицу TableName"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f63289335b777d9.json",
+  "parameterValues" : [ ]
+}

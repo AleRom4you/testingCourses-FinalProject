@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546855685443' stop='1546855686740'>
+    <name>VEDURF0009: Удаление данных зарегистрированного пользователя</name>
+    <title>VEDURF0009: Удаление данных зарегистрированного пользователя</title>
+    <test-cases>
+        <test-case start='1546855685444' status='passed' stop='1546855685820'>
+            <name>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</name>
+            <title>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c3dcdd9b-92fc-4657-8fcc-b65ba81ac2b2-attachment.png' type='image/png' size='23668'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546855685820' status='passed' stop='1546855685928'>
+            <name>2. Проверьте наличие данных в таблице TableName</name>
+            <title>2. Проверьте наличие данных в таблице TableName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='561f5a04-7b00-4fc2-b39f-d8bcbd3b6dbf-attachment.png' type='image/png' size='23668'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546855685929' status='passed' stop='1546855686041'>
+            <name>3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Remove” в данной строке для нажатия</name>
+            <title>3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Remove” в данной строке для нажатия</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='79ee8af1-ad02-482b-84d9-b19528f1aa1e-attachment.png' type='image/png' size='23668'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546855686041' status='passed' stop='1546855686381'>
+            <name>4. Нажмите данную кнопку</name>
+            <title>4. Нажмите данную кнопку</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c3c05497-ec03-429a-8732-330dc4c3ab9c-attachment.png' type='image/png' size='33288'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546855686381' status='passed' stop='1546855686739'>
+            <name>5. В открывшемся диалоговом окне нажмите кнопку “OK”</name>
+            <title>5. В открывшемся диалоговом окне нажмите кнопку “OK”</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='afff171e-a4a8-492d-9a11-6a49698dcc86-attachment.png' type='image/png' size='24329'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

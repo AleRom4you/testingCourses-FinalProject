@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546855680394' stop='1546855681704'>
+    <name>VEDURF0006: Кнопка “Add” добавляет заполненные на форме FormName данные пользователя в таблицу TableName</name>
+    <title>VEDURF0006: Кнопка “Add” добавляет заполненные на форме FormName данные пользователя в таблицу TableName</title>
+    <test-cases>
+        <test-case start='1546855680394' status='passed' stop='1546855680773'>
+            <name>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</name>
+            <title>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4aa840ed-4632-45fe-ab34-1a8dc35af976-attachment.png' type='image/png' size='23646'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546855680774' status='passed' stop='1546855681079'>
+            <name>2. Заполните поля “Name”, “Email” и “Address” корректными данными</name>
+            <title>2. Заполните поля “Name”, “Email” и “Address” корректными данными</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='56359ce9-dde8-48fc-a6d6-c61dc210238d-attachment.png' type='image/png' size='22490'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546855681079' status='passed' stop='1546855681209'>
+            <name>3. Проверьте, что кнопка “Add” доступна для нажатия</name>
+            <title>3. Проверьте, что кнопка “Add” доступна для нажатия</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='69262a02-7910-4220-92ce-30e80730d052-attachment.png' type='image/png' size='23702'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546855681209' status='passed' stop='1546855681704'>
+            <name>4. Нажмите на кнопку “Add”</name>
+            <title>4. Нажмите на кнопку “Add”</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4a5a513a-56ca-4c3f-a423-f4a6399c321b-attachment.png' type='image/png' size='23675'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

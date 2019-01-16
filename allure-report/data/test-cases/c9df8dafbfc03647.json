@@ -1,0 +1,61 @@
+{
+  "uid" : "c9df8dafbfc03647",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "fullName" : "VEDURF0003: Формат введённых данных в поле \"Email\" обрабатывается корректно .1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "historyId" : "4b7c70395372c8147cbf4722e9f6cf89",
+  "time" : {
+    "start" : 1546855674444,
+    "stop" : 1546855674890,
+    "duration" : 446
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6276463b650c32fe",
+      "name" : "Screenshot",
+      "source" : "6276463b650c32fe.png",
+      "type" : "image/png",
+      "size" : 23646
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0003: Формат введённых данных в поле \"Email\" обрабатывается корректно "
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0003: Формат введённых данных в поле \"Email\" обрабатывается корректно "
+  }, {
+    "name" : "testMethod",
+    "value" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0003: Формат введённых данных в поле \"Email\" обрабатывается корректно "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c9df8dafbfc03647.json",
+  "parameterValues" : [ ]
+}

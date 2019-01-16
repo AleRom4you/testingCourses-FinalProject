@@ -1,0 +1,61 @@
+{
+  "uid" : "272f541157fdd7e7",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "fullName" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя.1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "historyId" : "627ef0d667ca65b4a4ed2a2f18cf4894",
+  "time" : {
+    "start" : 1546855689790,
+    "stop" : 1546855690183,
+    "duration" : 393
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f7ff90655e83d32d",
+      "name" : "Screenshot",
+      "source" : "f7ff90655e83d32d.png",
+      "type" : "image/png",
+      "size" : 23646
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя"
+  }, {
+    "name" : "testMethod",
+    "value" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "272f541157fdd7e7.json",
+  "parameterValues" : [ ]
+}

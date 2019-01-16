@@ -1,0 +1,61 @@
+{
+  "uid" : "66ee54ca76e7816d",
+  "name" : "2. Проверьте наличие данных в таблице TableName",
+  "fullName" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя.2. Проверьте наличие данных в таблице TableName",
+  "historyId" : "301b99d545f230b9c0a567c5b4e1511e",
+  "time" : {
+    "start" : 1546855690183,
+    "stop" : 1546855690286,
+    "duration" : 103
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "301abe7c76d42b4f",
+      "name" : "Screenshot",
+      "source" : "301abe7c76d42b4f.png",
+      "type" : "image/png",
+      "size" : 23646
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя"
+  }, {
+    "name" : "testMethod",
+    "value" : "2. Проверьте наличие данных в таблице TableName"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "66ee54ca76e7816d.json",
+  "parameterValues" : [ ]
+}

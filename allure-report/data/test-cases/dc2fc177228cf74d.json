@@ -1,0 +1,61 @@
+{
+  "uid" : "dc2fc177228cf74d",
+  "name" : "2. Проверьте наличие данных в таблице TableName",
+  "fullName" : "VEDURF0012: Нельзя удалить редактируемую в данный момент запись.2. Проверьте наличие данных в таблице TableName",
+  "historyId" : "c12f5a17ca3014c3b75f7ad79d232388",
+  "time" : {
+    "start" : 1546855692273,
+    "stop" : 1546855692367,
+    "duration" : 94
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a9f840d02732bf40",
+      "name" : "Screenshot",
+      "source" : "a9f840d02732bf40.png",
+      "type" : "image/png",
+      "size" : 23646
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0012: Нельзя удалить редактируемую в данный момент запись"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0012: Нельзя удалить редактируемую в данный момент запись"
+  }, {
+    "name" : "testMethod",
+    "value" : "2. Проверьте наличие данных в таблице TableName"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0012: Нельзя удалить редактируемую в данный момент запись"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc2fc177228cf74d.json",
+  "parameterValues" : [ ]
+}

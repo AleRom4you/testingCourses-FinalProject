@@ -1,0 +1,101 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expected 'username form-control input-sm ng-touched ng-dirty ng-valid-parse ng-valid-required ng-valid ng-valid-minlength' to match 'ng-invalid'.",
+      "children" : [ {
+        "name" : "2. Введите в поле “Name” любое Name из \"Invalid names\" (негативный тест)",
+        "uid" : "93e3b4e587b41dc3",
+        "parentUid" : "c70f898a9822ead877ca26a7d840eda9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1546855669941,
+          "stop" : 1546855673956,
+          "duration" : 4015
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c70f898a9822ead877ca26a7d840eda9"
+    }, {
+      "name" : "Expected 'email form-control input-sm ng-touched ng-dirty ng-valid-required ng-valid ng-valid-email' to match 'ng-invalid'.",
+      "children" : [ {
+        "name" : "2. Введите в поле “Email” любой Email из \"Invalid email addresses\" (негативный тест)",
+        "uid" : "c45ac7b11612125",
+        "parentUid" : "4794ff5babdf6730d8f2cd92f91cb7af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1546855674890,
+          "stop" : 1546855676080,
+          "duration" : 1190
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4794ff5babdf6730d8f2cd92f91cb7af"
+    }, {
+      "name" : "Expected true to be false.",
+      "children" : [ {
+        "name" : "3. Сотрите введённые данные",
+        "uid" : "cc4827b20f4a1b7c",
+        "parentUid" : "293aa7b91ef44dcd8cc1f32bddfcf900",
+        "status" : "failed",
+        "time" : {
+          "start" : 1546855678627,
+          "stop" : 1546855678954,
+          "duration" : 327
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "5. Нажмите кнопку “Edit”",
+        "uid" : "daa79c3d7c852cbf",
+        "parentUid" : "293aa7b91ef44dcd8cc1f32bddfcf900",
+        "status" : "failed",
+        "time" : {
+          "start" : 1546855692556,
+          "stop" : 1546855692906,
+          "duration" : 350
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "293aa7b91ef44dcd8cc1f32bddfcf900"
+    }, {
+      "name" : "Expected 2 to equal 1.",
+      "children" : [ {
+        "name" : "6. Нажмите “Update”",
+        "uid" : "56e60bc7d60eb0c7",
+        "parentUid" : "80c5a4d31f4be55ecfff85c4496db72f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1546855689354,
+          "stop" : 1546855689783,
+          "duration" : 429
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "80c5a4d31f4be55ecfff85c4496db72f"
+    }, {
+      "name" : "Expected '' to be 'User1'.",
+      "children" : [ {
+        "name" : "9. Нажмите “Reset Form”",
+        "uid" : "5d3c7a848aeba339",
+        "parentUid" : "f0d099d5a00a809092c84a45c8dd964f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1546855691275,
+          "stop" : 1546855691727,
+          "duration" : 452
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0d099d5a00a809092c84a45c8dd964f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

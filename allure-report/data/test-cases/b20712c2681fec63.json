@@ -1,0 +1,61 @@
+{
+  "uid" : "b20712c2681fec63",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "fullName" : "VEDURF0007: В поле “Name” должны быть введены уникальные относительно таблицы TableName данные, т.е. двух и более одинаковых имён в таблице быть не должно.1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "historyId" : "ff5c5ef7bfe79c95ae5d6d7bcfd00ed6",
+  "time" : {
+    "start" : 1546855681709,
+    "stop" : 1546855682116,
+    "duration" : 407
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3b9393be59092061",
+      "name" : "Screenshot",
+      "source" : "3b9393be59092061.png",
+      "type" : "image/png",
+      "size" : 23646
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0007: В поле “Name” должны быть введены уникальные относительно таблицы TableName данные, т.е. двух и более одинаковых имён в таблице быть не должно"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0007: В поле “Name” должны быть введены уникальные относительно таблицы TableName данные, т.е. двух и более одинаковых имён в таблице быть не должно"
+  }, {
+    "name" : "testMethod",
+    "value" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0007: В поле “Name” должны быть введены уникальные относительно таблицы TableName данные, т.е. двух и более одинаковых имён в таблице быть не должно"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b20712c2681fec63.json",
+  "parameterValues" : [ ]
+}

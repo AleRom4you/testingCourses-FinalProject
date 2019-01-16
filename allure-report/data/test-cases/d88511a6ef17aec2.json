@@ -1,0 +1,61 @@
+{
+  "uid" : "d88511a6ef17aec2",
+  "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "fullName" : "VEDURF0009: Удаление данных зарегистрированного пользователя.1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
+  "historyId" : "a0b8c4d2d99a9b3c77ce969665f332b",
+  "time" : {
+    "start" : 1546855685444,
+    "stop" : 1546855685820,
+    "duration" : 376
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e927b5506efa2dbe",
+      "name" : "Screenshot",
+      "source" : "e927b5506efa2dbe.png",
+      "type" : "image/png",
+      "size" : 23668
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0009: Удаление данных зарегистрированного пользователя"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0009: Удаление данных зарегистрированного пользователя"
+  }, {
+    "name" : "testMethod",
+    "value" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0009: Удаление данных зарегистрированного пользователя"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d88511a6ef17aec2.json",
+  "parameterValues" : [ ]
+}

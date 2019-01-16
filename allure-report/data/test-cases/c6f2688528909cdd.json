@@ -1,0 +1,61 @@
+{
+  "uid" : "c6f2688528909cdd",
+  "name" : "5. Заполните поля “Name” и “Email” такими же данными, как на шаге 2",
+  "fullName" : "VEDURF0007: В поле “Name” должны быть введены уникальные относительно таблицы TableName данные, т.е. двух и более одинаковых имён в таблице быть не должно.5. Заполните поля “Name” и “Email” такими же данными, как на шаге 2",
+  "historyId" : "73890a5e24d9b9167e9a74482abfcbff",
+  "time" : {
+    "start" : 1546855682860,
+    "stop" : 1546855683099,
+    "duration" : 239
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "320b207ff7c66932",
+      "name" : "Screenshot",
+      "source" : "320b207ff7c66932.png",
+      "type" : "image/png",
+      "size" : 23250
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0007: В поле “Name” должны быть введены уникальные относительно таблицы TableName данные, т.е. двух и более одинаковых имён в таблице быть не должно"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0007: В поле “Name” должны быть введены уникальные относительно таблицы TableName данные, т.е. двух и более одинаковых имён в таблице быть не должно"
+  }, {
+    "name" : "testMethod",
+    "value" : "5. Заполните поля “Name” и “Email” такими же данными, как на шаге 2"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0007: В поле “Name” должны быть введены уникальные относительно таблицы TableName данные, т.е. двух и более одинаковых имён в таблице быть не должно"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6f2688528909cdd.json",
+  "parameterValues" : [ ]
+}

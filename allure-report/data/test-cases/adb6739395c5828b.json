@@ -1,0 +1,61 @@
+{
+  "uid" : "adb6739395c5828b",
+  "name" : "3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия",
+  "fullName" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя.3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия",
+  "historyId" : "30cd34bafffc2173683f1d7ad4f007e1",
+  "time" : {
+    "start" : 1546855690286,
+    "stop" : 1546855690389,
+    "duration" : 103
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e2930396628ecd35",
+      "name" : "Screenshot",
+      "source" : "e2930396628ecd35.png",
+      "type" : "image/png",
+      "size" : 23646
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя"
+  }, {
+    "name" : "testMethod",
+    "value" : "3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "adb6739395c5828b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,61 @@
+{
+  "uid" : "d03ee53f199ed5ed",
+  "name" : "6. Повторите шаги 3-4",
+  "fullName" : "VEDURF0007: В поле “Name” должны быть введены уникальные относительно таблицы TableName данные, т.е. двух и более одинаковых имён в таблице быть не должно.6. Повторите шаги 3-4",
+  "historyId" : "f8d6f3932e2e9aa53759e5e8cb2ded63",
+  "time" : {
+    "start" : 1546855683100,
+    "stop" : 1546855683553,
+    "duration" : 453
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7700e7c8c204f97c",
+      "name" : "Screenshot",
+      "source" : "7700e7c8c204f97c.png",
+      "type" : "image/png",
+      "size" : 23675
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0007: В поле “Name” должны быть введены уникальные относительно таблицы TableName данные, т.е. двух и более одинаковых имён в таблице быть не должно"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0007: В поле “Name” должны быть введены уникальные относительно таблицы TableName данные, т.е. двух и более одинаковых имён в таблице быть не должно"
+  }, {
+    "name" : "testMethod",
+    "value" : "6. Повторите шаги 3-4"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0007: В поле “Name” должны быть введены уникальные относительно таблицы TableName данные, т.е. двух и более одинаковых имён в таблице быть не должно"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d03ee53f199ed5ed.json",
+  "parameterValues" : [ ]
+}

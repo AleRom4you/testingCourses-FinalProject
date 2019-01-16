@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546855683557' stop='1546855685438'>
+    <name>VEDURF0008: Редактирование данных зарегистрированного пользователя</name>
+    <title>VEDURF0008: Редактирование данных зарегистрированного пользователя</title>
+    <test-cases>
+        <test-case start='1546855683558' status='passed' stop='1546855683906'>
+            <name>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</name>
+            <title>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='42872d65-e887-405a-b668-cf941c1b5877-attachment.png' type='image/png' size='23646'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546855683906' status='passed' stop='1546855684009'>
+            <name>2. Проверьте наличие данных в таблице TableName</name>
+            <title>2. Проверьте наличие данных в таблице TableName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='35507303-40ef-4ba2-8f23-98c54f46c14d-attachment.png' type='image/png' size='23646'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546855684010' status='passed' stop='1546855684113'>
+            <name>3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия</name>
+            <title>3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d0251212-5924-43f6-8146-08c8370d8318-attachment.png' type='image/png' size='23646'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546855684114' status='passed' stop='1546855684430'>
+            <name>4. Нажмите данную кнопку</name>
+            <title>4. Нажмите данную кнопку</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b44f8e25-e9d2-48d8-8bd7-8f828e15b100-attachment.png' type='image/png' size='23382'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546855684430' status='passed' stop='1546855684594'>
+            <name>5. Проверьте наличие выбранных данных в полях формы FormName</name>
+            <title>5. Проверьте наличие выбранных данных в полях формы FormName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ca951d02-fe72-4a59-a2f2-f506fc4d1475-attachment.png' type='image/png' size='23382'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546855684595' status='passed' stop='1546855684973'>
+            <name>6. Введите новые корректные данные</name>
+            <title>6. Введите новые корректные данные</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1558363f-6995-4632-9631-95b1d88ea957-attachment.png' type='image/png' size='22969'/>
+            </attachments>
+        </test-case>
+        <test-case start='1546855684973' status='passed' stop='1546855685438'>
+            <name>6. Нажмите “Update”</name>
+            <title>6. Нажмите “Update”</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5a7a5b97-1fa9-4687-987c-744f7e58ce4b-attachment.png' type='image/png' size='23696'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

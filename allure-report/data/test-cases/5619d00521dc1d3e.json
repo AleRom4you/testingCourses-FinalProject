@@ -1,0 +1,61 @@
+{
+  "uid" : "5619d00521dc1d3e",
+  "name" : "5. Проверьте наличие выбранных данных в полях формы FormName",
+  "fullName" : "VEDURF0008: Редактирование данных зарегистрированного пользователя.5. Проверьте наличие выбранных данных в полях формы FormName",
+  "historyId" : "5cd33379a1fbe4a01d301efc5180ea44",
+  "time" : {
+    "start" : 1546855684430,
+    "stop" : 1546855684594,
+    "duration" : 164
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f6a434fbd0b452b9",
+      "name" : "Screenshot",
+      "source" : "f6a434fbd0b452b9.png",
+      "type" : "image/png",
+      "size" : 23382
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VEDURF0008: Редактирование данных зарегистрированного пользователя"
+  }, {
+    "name" : "testClass",
+    "value" : "VEDURF0008: Редактирование данных зарегистрированного пользователя"
+  }, {
+    "name" : "testMethod",
+    "value" : "5. Проверьте наличие выбранных данных в полях формы FormName"
+  }, {
+    "name" : "package",
+    "value" : "VEDURF0008: Редактирование данных зарегистрированного пользователя"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5619d00521dc1d3e.json",
+  "parameterValues" : [ ]
+}
