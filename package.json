@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "pretest": "rm -rf allure-report",
+    "test": "protractor conf.js",
+    "posttest": "allure generate allure-results --clean -o allure-report || true"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
@@ -12,15 +14,12 @@
     "http-errors": "^1.7.1",
     "jasmine-allure-reporter": "^1.0.2",
     "morgan": "~1.9.0",
-    "pug": "^2.0.3"
+    "protractor": "^5.4.2",
+    "pug": "^2.0.3",
+    "webdriver-manager": "^12.1.1"
   },
   "devDependencies": {
     "allure-commandline": "^2.8.1",
     "jasmine": "^3.3.1"
-  },
-  "scripts": {
-    "pretest": "rm -rf allure-report",
-    "test": "protractor conf.js",
-    "posttest": "allure generate allure-results --clean -o allure-report || true"
   }
 }
