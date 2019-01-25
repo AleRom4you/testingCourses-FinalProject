@@ -14,9 +14,7 @@
   ],
   "author": "Alex Romanovskij <romanovskii_1995@mail.ru>",
   "scripts": {
-    "start": "node test-conf.js",
-    "pretest": "rm -rf allure-report",
-    "test": "protractor protractor.conf.js",
+    "test": "node test-conf.js",
     "posttest": "allure generate allure-results --clean -o allure-report || true"
   },
   "dependencies": {
