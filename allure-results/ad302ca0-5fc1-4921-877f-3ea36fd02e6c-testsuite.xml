@@ -1,0 +1,329 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548413729823' stop='1548413731343'>
+    <name>VEDURF0010: Во время редактирования данных пользователя нельзя сохранить имя пользователя, которое уже зарегистрировано, т.е. нельзя создать дубликат имеющихся данных</name>
+    <title>VEDURF0010: Во время редактирования данных пользователя нельзя сохранить имя пользователя, которое уже зарегистрировано, т.е. нельзя создать дубликат имеющихся данных</title>
+    <test-cases>
+        <test-case start='1548413729823' status='failed' stop='1548413730937'>
+            <name>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</name>
+            <title>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='873a38c6-b72d-4a81-bc3c-87497588209f-attachment.png' type='image/png' size='37477'/>
+            </attachments>
+            <failure>
+                <message>Failed: Reached error page: about:neterror?e=connectionFailure&amp;u=http%3A//localhost%3A8080/TestAppExample/index&amp;c=UTF-8&amp;f=regular&amp;d=Firefox%20%D0%BD%D0%B5%20%D0%BC%D0%BE%D0%B6%D0%B5%D1%82%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C%20%D1%81%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BE%D0%BC%20localhost%3A8080.
+                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+                System info: host: 'ASUS-F555LN', ip: '192.168.1.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+                Driver info: driver.version: unknown</message>
+                <stack-trace>WebDriverError: Reached error page: about:neterror?e=connectionFailure&amp;u=http%3A//localhost%3A8080/TestAppExample/index&amp;c=UTF-8&amp;f=regular&amp;d=Firefox%20%D0%BD%D0%B5%20%D0%BC%D0%BE%D0%B6%D0%B5%D1%82%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C%20%D1%81%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BE%D0%BC%20localhost%3A8080.
+                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+                System info: host: 'ASUS-F555LN', ip: '192.168.1.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+                Driver info: driver.version: unknown
+                    at Object.checkLegacyResponse (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at doSend.then.response (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\http.js:441:30)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: WebDriver.navigate().to(http://localhost:8080/TestAppExample/index)
+                    at thenableWebDriverProxy.schedule (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Navigation.to (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\webdriver.js:1133:25)
+                    at UserRegistrationForm.getHomePage (C:\Users\AleRom\Documents\server\testingCoursesFinal\PO\UserRegistrationForm.js:11:28)
+                    at UserContext.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:8:30)
+                    at C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                From: Task: Run it("1. Откройте HomePage (http://localhost:8080/TestAppExample/index)") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:7:5)
+                    at addSpecsToSuite (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:5:1)
+                    at Module._compile (internal/modules/cjs/loader.js:688:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+                    at Module.load (internal/modules/cjs/loader.js:598:32)
+                    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1548413730937' status='failed' stop='1548413731021'>
+            <name>2. Проверьте наличие данных в таблице TableName, как минимум 2 пользователя</name>
+            <title>2. Проверьте наличие данных в таблице TableName, как минимум 2 пользователя</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='11e73764-ae5a-488a-ac1f-f6d9cfa61c95-attachment.png' type='image/png' size='37477'/>
+            </attachments>
+            <failure>
+                <message>Failed: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"</message>
+                <stack-trace>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+                    at runWaitForAngularScript.then (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\browser.js:463:23)
+                    at ManagedPromise.invokeCallback_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+                    at C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.(anonymous function).args [as sendKeys] (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\element.js:831:22)
+                    at UserRegistrationForm.inputNameSetValue (C:\Users\AleRom\Documents\server\testingCoursesFinal\PO\UserRegistrationForm.js:17:19)
+                    at UserContext.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:15:34)
+                    at C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run it("2. Проверьте наличие данных в таблице TableName, как минимум 2 пользователя") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:13:5)
+                    at addSpecsToSuite (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:5:1)
+                    at Module._compile (internal/modules/cjs/loader.js:688:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+                    at Module.load (internal/modules/cjs/loader.js:598:32)
+                    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1548413731021' status='failed' stop='1548413731099'>
+            <name>3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия</name>
+            <title>3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fc92806a-0829-45b3-a812-5d9c308a2636-attachment.png' type='image/png' size='37477'/>
+            </attachments>
+            <failure>
+                <message>Failed: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"</message>
+                <stack-trace>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+                    at runWaitForAngularScript.then (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\browser.js:463:23)
+                    at ManagedPromise.invokeCallback_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+                    at C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.(anonymous function).args [as isEnabled] (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.(anonymous function).args [as isEnabled] (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\element.js:831:22)
+                    at ListOfUsers.buttonEditIsEnabled (C:\Users\AleRom\Documents\server\testingCoursesFinal\PO\ListOfUsers.js:64:32)
+                    at UserContext.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:29:21)
+                    at C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run it("3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:25:5)
+                    at addSpecsToSuite (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:5:1)
+                    at Module._compile (internal/modules/cjs/loader.js:688:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+                    at Module.load (internal/modules/cjs/loader.js:598:32)
+                    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1548413731099' status='failed' stop='1548413731183'>
+            <name>4. Нажмите данную кнопку</name>
+            <title>4. Нажмите данную кнопку</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='013b9eb1-8c37-4039-aece-e35e630f4c1f-attachment.png' type='image/png' size='37477'/>
+            </attachments>
+            <failure>
+                <message>Failed: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"</message>
+                <stack-trace>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+                    at runWaitForAngularScript.then (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\browser.js:463:23)
+                    at ManagedPromise.invokeCallback_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+                    at C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.(anonymous function).args [as click] (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\element.js:831:22)
+                    at ListOfUsers.buttonEditClick (C:\Users\AleRom\Documents\server\testingCoursesFinal\PO\ListOfUsers.js:68:25)
+                    at UserContext.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:33:21)
+                    at C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run it("4. Нажмите данную кнопку") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:32:5)
+                    at addSpecsToSuite (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:5:1)
+                    at Module._compile (internal/modules/cjs/loader.js:688:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+                    at Module.load (internal/modules/cjs/loader.js:598:32)
+                    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1548413731183' status='failed' stop='1548413731268'>
+            <name>5. Отредактируйте данные на форме FormName так, чтобы они были такими же, как у другого пользователя из таблицы TableName</name>
+            <title>5. Отредактируйте данные на форме FormName так, чтобы они были такими же, как у другого пользователя из таблицы TableName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7d3bc339-a801-4297-bf14-239961c21491-attachment.png' type='image/png' size='37477'/>
+            </attachments>
+            <failure>
+                <message>Failed: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"</message>
+                <stack-trace>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+                    at runWaitForAngularScript.then (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\browser.js:463:23)
+                    at ManagedPromise.invokeCallback_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+                    at C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.(anonymous function).args [as clear] (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.(anonymous function).args [as clear] (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\element.js:831:22)
+                    at UserRegistrationForm.inputNameClear (C:\Users\AleRom\Documents\server\testingCoursesFinal\PO\UserRegistrationForm.js:25:19)
+                    at UserContext.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:38:30)
+                    at C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run it("5. Отредактируйте данные на форме FormName так, чтобы они были такими же, как у другого пользователя из таблицы TableName") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:36:5)
+                    at addSpecsToSuite (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:5:1)
+                    at Module._compile (internal/modules/cjs/loader.js:688:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+                    at Module.load (internal/modules/cjs/loader.js:598:32)
+                    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1548413731268' status='failed' stop='1548413731342'>
+            <name>6. Нажмите “Update”</name>
+            <title>6. Нажмите “Update”</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ddbaaeb3-d57e-472d-811e-6b2e078285ff-attachment.png' type='image/png' size='37477'/>
+            </attachments>
+            <failure>
+                <message>Failed: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"</message>
+                <stack-trace>Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+                    at runWaitForAngularScript.then (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\browser.js:463:23)
+                    at ManagedPromise.invokeCallback_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+                    at C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.(anonymous function).args [as click] (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\built\element.js:831:22)
+                    at UserRegistrationForm.buttonSubmitClick (C:\Users\AleRom\Documents\server\testingCoursesFinal\PO\UserRegistrationForm.js:99:22)
+                    at UserContext.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:47:30)
+                    at C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run it("6. Нажмите “Update”") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:46:5)
+                    at addSpecsToSuite (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0010.js:5:1)
+                    at Module._compile (internal/modules/cjs/loader.js:688:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+                    at Module.load (internal/modules/cjs/loader.js:598:32)
+                    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

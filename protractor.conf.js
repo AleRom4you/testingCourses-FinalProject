@@ -4,7 +4,7 @@ exports.config = {
     seleniumAddress: 'http://localhost:4444/wd/hub',
 
     onPrepare: function() {
-        var AllureReporter = require('jasmine-allure-reporter');
+        let AllureReporter = require('jasmine-allure-reporter');
         jasmine.getEnv().addReporter(new AllureReporter());
         jasmine.getEnv().afterEach(function(done){
             browser.takeScreenshot().then(function (png) {
@@ -16,9 +16,9 @@ exports.config = {
         });
     },
 
-    multiCapabilities: [{
-        'browserName': 'firefox',
-    }],
+    capabilities: {
+        browserName: 'firefox',
+    },
 
     specs: [
         'Specs/vedurf0001.js',

@@ -1,0 +1,123 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548415108349' stop='1548415110283'>
+    <name>VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя</name>
+    <title>VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя</title>
+    <test-cases>
+        <test-case start='1548415108349' status='passed' stop='1548415108662'>
+            <name>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</name>
+            <title>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c78406dd-d94a-45d3-bd12-c08255e4362e-attachment.png' type='image/png' size='23148'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415108662' status='passed' stop='1548415108765'>
+            <name>2. Проверьте наличие данных в таблице TableName</name>
+            <title>2. Проверьте наличие данных в таблице TableName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4755486c-dc87-4345-8796-319c00c8546e-attachment.png' type='image/png' size='23148'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415108765' status='passed' stop='1548415108881'>
+            <name>3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия</name>
+            <title>3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0f0bf0da-d424-4a34-ade4-4c581a87d295-attachment.png' type='image/png' size='23148'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415108881' status='passed' stop='1548415109253'>
+            <name>4. Нажмите данную кнопку</name>
+            <title>4. Нажмите данную кнопку</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ca21f31a-31bb-4bfe-abff-b49a563994fb-attachment.png' type='image/png' size='22478'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415109253' status='failed' stop='1548415109459'>
+            <name>5. Проверьте, что выбранные данные доступны в полях формы FormName</name>
+            <title>5. Проверьте, что выбранные данные доступны в полях формы FormName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='32b74748-3180-4cd0-956f-ac0000ddd264-attachment.png' type='image/png' size='22478'/>
+            </attachments>
+            <failure>
+                <message>Expected 'User3' to be 'User1'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserRegistrationForm.inputNameCheckValue (C:\Users\AleRom\Documents\server\testingCoursesFinal\PO\UserRegistrationForm.js:21:49)
+                    at UserContext.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0011.js:31:30)
+                    at C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2974:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1548415109459' status='passed' stop='1548415109567'>
+            <name>6. Проверьте, что кнопка “Reset Form” недоступна для нажатия</name>
+            <title>6. Проверьте, что кнопка “Reset Form” недоступна для нажатия</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9dca853b-6b5c-425c-9dcc-0d054f4a41a4-attachment.png' type='image/png' size='22478'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415109568' status='passed' stop='1548415109715'>
+            <name>7. Отредактируйте любое поле формы FormName</name>
+            <title>7. Отредактируйте любое поле формы FormName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e699d2ce-c232-4244-874e-0b163308c0b6-attachment.png' type='image/png' size='22945'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415109715' status='passed' stop='1548415109808'>
+            <name>8. Проверьте, что кнопка “Reset Form” доступна для нажатия</name>
+            <title>8. Проверьте, что кнопка “Reset Form” доступна для нажатия</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='035f8696-2618-47f9-8bd9-afb56ce74dc9-attachment.png' type='image/png' size='23901'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415109808' status='failed' stop='1548415110283'>
+            <name>9. Нажмите “Reset Form”</name>
+            <title>9. Нажмите “Reset Form”</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='338a79bf-c19e-4df5-b4c6-b5d6b8d81dc0-attachment.png' type='image/png' size='23249'/>
+            </attachments>
+            <failure>
+                <message>Expected '' to be 'User1'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserRegistrationForm.inputNameCheckValue (C:\Users\AleRom\Documents\server\testingCoursesFinal\PO\UserRegistrationForm.js:21:49)
+                    at UserContext.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0011.js:53:37)
+                    at C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2974:25)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

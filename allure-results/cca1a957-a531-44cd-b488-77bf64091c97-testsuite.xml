@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548415099758' stop='1548415101626'>
+    <name>VEDURF0007: В поле “Name” должны быть введены уникальные относительно таблицы TableName данные, т.е. двух и более одинаковых имён в таблице быть не должно</name>
+    <title>VEDURF0007: В поле “Name” должны быть введены уникальные относительно таблицы TableName данные, т.е. двух и более одинаковых имён в таблице быть не должно</title>
+    <test-cases>
+        <test-case start='1548415099758' status='passed' stop='1548415100136'>
+            <name>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</name>
+            <title>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c50a95b8-7a41-4db7-b4fc-6224fde926ba-attachment.png' type='image/png' size='24382'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415100136' status='passed' stop='1548415100373'>
+            <name>2. Заполните поля “Name”, “Email” и “Address” корректными данными</name>
+            <title>2. Заполните поля “Name”, “Email” и “Address” корректными данными</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3371f07f-1446-45a2-abe2-805a0eeb21bb-attachment.png' type='image/png' size='23982'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415100373' status='passed' stop='1548415100480'>
+            <name>3. Проверьте, что кнопка “Add” доступна для нажатия</name>
+            <title>3. Проверьте, что кнопка “Add” доступна для нажатия</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e33383d1-65ff-4ac8-94ac-05cb35234af1-attachment.png' type='image/png' size='25698'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415100480' status='passed' stop='1548415100896'>
+            <name>4. Нажмите на кнопку “Add”</name>
+            <title>4. Нажмите на кнопку “Add”</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='175e26d5-cf44-4eef-b344-2e2cf3481e78-attachment.png' type='image/png' size='24411'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415100896' status='passed' stop='1548415101184'>
+            <name>5. Заполните поля “Name” и “Email” такими же данными, как на шаге 2</name>
+            <title>5. Заполните поля “Name” и “Email” такими же данными, как на шаге 2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='80c717df-ae42-4a1c-a091-5b15284782be-attachment.png' type='image/png' size='24080'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415101184' status='passed' stop='1548415101626'>
+            <name>6. Повторите шаги 3-4</name>
+            <title>6. Повторите шаги 3-4</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3d2702b3-f91d-4e13-8c25-42f2fe8d0f4a-attachment.png' type='image/png' size='24411'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548415101629' stop='1548415103802'>
+    <name>VEDURF0008: Редактирование данных зарегистрированного пользователя</name>
+    <title>VEDURF0008: Редактирование данных зарегистрированного пользователя</title>
+    <test-cases>
+        <test-case start='1548415101630' status='passed' stop='1548415101952'>
+            <name>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</name>
+            <title>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='17148579-a05c-469e-9639-6d3388f03234-attachment.png' type='image/png' size='24382'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415101952' status='passed' stop='1548415102048'>
+            <name>2. Проверьте наличие данных в таблице TableName</name>
+            <title>2. Проверьте наличие данных в таблице TableName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9cc309b6-09b7-4942-8b13-d592e18d1f7e-attachment.png' type='image/png' size='24382'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415102048' status='passed' stop='1548415102167'>
+            <name>3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия</name>
+            <title>3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0dc5d659-7e1b-4f70-9d05-1c44ab2340c4-attachment.png' type='image/png' size='24382'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415102167' status='passed' stop='1548415102529'>
+            <name>4. Нажмите данную кнопку</name>
+            <title>4. Нажмите данную кнопку</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1fd426c2-0516-482a-bed6-98acae10468f-attachment.png' type='image/png' size='23775'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415102529' status='failed' stop='1548415102724'>
+            <name>5. Проверьте наличие выбранных данных в полях формы FormName</name>
+            <title>5. Проверьте наличие выбранных данных в полях формы FormName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b7bf6b12-3659-43d2-9714-4acd755fba7a-attachment.png' type='image/png' size='23775'/>
+            </attachments>
+            <failure>
+                <message>Expected 'Address2' to be ''.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserRegistrationForm.inputAddressCheckValue (C:\Users\AleRom\Documents\server\testingCoursesFinal\PO\UserRegistrationForm.js:55:52)
+                    at UserContext.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0008.js:31:30)
+                    at C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2974:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1548415102724' status='passed' stop='1548415103231'>
+            <name>6. Введите новые корректные данные</name>
+            <title>6. Введите новые корректные данные</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5c1207a2-06ff-4d21-92da-d56a4de0397e-attachment.png' type='image/png' size='23694'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415103231' status='passed' stop='1548415103802'>
+            <name>6. Нажмите “Update”</name>
+            <title>6. Нажмите “Update”</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a8e21dd3-1d97-4d98-8806-191a1a0f0138-attachment.png' type='image/png' size='24415'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

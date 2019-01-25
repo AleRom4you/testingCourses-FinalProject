@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548415098477' stop='1548415099755'>
+    <name>VEDURF0006: Кнопка “Add” добавляет заполненные на форме FormName данные пользователя в таблицу TableName</name>
+    <title>VEDURF0006: Кнопка “Add” добавляет заполненные на форме FormName данные пользователя в таблицу TableName</title>
+    <test-cases>
+        <test-case start='1548415098477' status='passed' stop='1548415098789'>
+            <name>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</name>
+            <title>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f057035c-19d2-4a3c-9f62-010c3c0fc3f6-attachment.png' type='image/png' size='24382'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415098789' status='passed' stop='1548415099082'>
+            <name>2. Заполните поля “Name”, “Email” и “Address” корректными данными</name>
+            <title>2. Заполните поля “Name”, “Email” и “Address” корректными данными</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='388ba312-06e3-43b1-8e88-ae341680fd40-attachment.png' type='image/png' size='23226'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415099082' status='passed' stop='1548415099183'>
+            <name>3. Проверьте, что кнопка “Add” доступна для нажатия</name>
+            <title>3. Проверьте, что кнопка “Add” доступна для нажатия</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2d87ee02-979e-4542-80a8-47d269d3c154-attachment.png' type='image/png' size='24945'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415099183' status='failed' stop='1548415099755'>
+            <name>4. Нажмите на кнопку “Add”</name>
+            <title>4. Нажмите на кнопку “Add”</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6b654e01-12ce-490c-8abd-9b17f61cd797-attachment.png' type='image/png' size='24411'/>
+            </attachments>
+            <failure>
+                <message>Expected 'User3' to equal 'User1'.</message>
+                <stack-trace>Error: Failed expectation
+                    at ListOfUsers.tableLastRowDataCheck (C:\Users\AleRom\Documents\server\testingCoursesFinal\PO\ListOfUsers.js:52:37)
+                    at UserContext.&lt;anonymous> (C:\Users\AleRom\Documents\server\testingCoursesFinal\Specs\vedurf0006.js:27:21)
+                    at C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\AleRom\Documents\server\testingCoursesFinal\node_modules\selenium-webdriver\lib\promise.js:2974:25)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

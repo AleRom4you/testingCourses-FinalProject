@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548415097167' stop='1548415098475'>
+    <name>VEDURF0005: Кнопка “Reset Form” по нажатию очищает введенные в текстовые поля данные</name>
+    <title>VEDURF0005: Кнопка “Reset Form” по нажатию очищает введенные в текстовые поля данные</title>
+    <test-cases>
+        <test-case start='1548415097168' status='passed' stop='1548415097581'>
+            <name>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</name>
+            <title>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='307b37b3-325d-48ee-8fd2-596c65faacb9-attachment.png' type='image/png' size='24382'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415097581' status='passed' stop='1548415097897'>
+            <name>2. Заполните поля “Name”, “Email” и “Address” корректными данными</name>
+            <title>2. Заполните поля “Name”, “Email” и “Address” корректными данными</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6c8049ba-17f8-467c-a0c7-4970d043aef5-attachment.png' type='image/png' size='23720'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415097897' status='passed' stop='1548415097998'>
+            <name>3. Проверьте, что кнопка “Reset Form” доступна для нажатия</name>
+            <title>3. Проверьте, что кнопка “Reset Form” доступна для нажатия</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d4c95730-585d-4596-8d5e-1ac48aa76856-attachment.png' type='image/png' size='24795'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415097998' status='passed' stop='1548415098474'>
+            <name>4. Нажмите на кнопку “Reset Form”</name>
+            <title>4. Нажмите на кнопку “Reset Form”</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d496ca4e-4e78-4c2b-be71-0e8553a6da01-attachment.png' type='image/png' size='24479'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

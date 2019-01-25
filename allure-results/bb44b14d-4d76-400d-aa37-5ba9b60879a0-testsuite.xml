@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1548415085955' stop='1548415088805'>
+    <name>VEDURF0001: Минимальная длина введённых данных в поле "Name" = 3</name>
+    <title>VEDURF0001: Минимальная длина введённых данных в поле "Name" = 3</title>
+    <test-cases>
+        <test-case start='1548415085956' status='passed' stop='1548415088136'>
+            <name>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</name>
+            <title>1. Откройте HomePage (http://localhost:8080/TestAppExample/index)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='403b2e45-e0e4-4b58-83b6-84425488954e-attachment.png' type='image/png' size='24382'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415088137' status='passed' stop='1548415088506'>
+            <name>2. Введите в поле “Name” Name1 (негативный тест)</name>
+            <title>2. Введите в поле “Name” Name1 (негативный тест)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bd27de54-0723-4e0f-90d1-26cb51f6a3c8-attachment.png' type='image/png' size='25836'/>
+            </attachments>
+        </test-case>
+        <test-case start='1548415088506' status='passed' stop='1548415088804'>
+            <name>3. Введите в поле “Name” Name2 (позитивный тест)</name>
+            <title>3. Введите в поле “Name” Name2 (позитивный тест)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1455f536-9210-4ee4-bf6e-58acfa247b76-attachment.png' type='image/png' size='26020'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
