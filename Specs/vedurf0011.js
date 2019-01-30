@@ -1,36 +1,39 @@
 let userRegistrationForm = require('../PO/UserRegistrationForm');
-let listOfUsers = require('../PO/ListOfUsers');
+let tableOfUsers = require('../PO/TableOfUsers');
 let dataForTest = require('../Fixtures/dataForTests');
 
 describe('VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные ' +
     'выбранного пользователя', function () {
-    it('1. Откройте HomePage (http://localhost:8080/TestAppExample/index)', function () {
-        userRegistrationForm.getHomePage();
+    let user; // This variable contain object user, which got from row of users table
+
+    it('1. Откройте HomePage', function () {
+        browser.navigate().to(dataForTest.url);
+        browser.waitForAngular();
         // Comparison of expected and actual results
-        expect(browser.getCurrentUrl()).toEqual('http://localhost:8080/TestAppExample/index');
+        expect(browser.getCurrentUrl()).toEqual(dataForTest.url);
     });
 
     it('2. Проверьте наличие данных в таблице TableName', function () {
         // Comparison of expected and actual results
-        listOfUsers.tableBodyIsNotEmpty();
+        tableOfUsers.tableBodyIsNotEmpty();
     });
 
     it('3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли ' +
         'кнопка “Edit” в данной строке для нажатия', function () {
-        listOfUsers.getDataFromRowByIndex(dataForTest.vedurf0011.rowIndex);
+        user = tableOfUsers.getDataFromRowByIndex(dataForTest.vedurf0011.rowIndex);
         // Comparison of expected and actual results
-        listOfUsers.buttonEditIsEnabled();
+        tableOfUsers.buttonEditIsEnabled(user);
     });
 
     it('4. Нажмите данную кнопку', function () {
-        listOfUsers.buttonEditClick();
+        tableOfUsers.buttonEditClick(user);
     });
 
     it('5. Проверьте, что выбранные данные доступны в полях формы FormName', function () {
         // Comparison of expected and actual results
-        userRegistrationForm.inputNameCheckValue(dataForTest.vedurf0011.user1.name);
-        userRegistrationForm.inputAddressCheckValue(dataForTest.vedurf0011.user1.address);
-        userRegistrationForm.inputEmailCheckValue(dataForTest.vedurf0011.user1.email);
+        userRegistrationForm.inputNameCheckValue(user.name.getText());
+        userRegistrationForm.inputAddressCheckValue(user.address.getText());
+        userRegistrationForm.inputEmailCheckValue(user.email.getText());
     });
 
     it('6. Проверьте, что кнопка “Reset Form” недоступна для нажатия', function () {
@@ -39,7 +42,7 @@ describe('VEDURF0011: Во время редактировании данных,
     });
 
     it('7. Отредактируйте любое поле формы FormName', function () {
-        userRegistrationForm.inputAddressSetValue(dataForTest.vedurf0011.user2.address);
+        userRegistrationForm.inputAddressSetValue(dataForTest.vedurf0011.user.address);
     });
 
     it('8. Проверьте, что кнопка “Reset Form” доступна для нажатия', function () {
@@ -50,8 +53,8 @@ describe('VEDURF0011: Во время редактировании данных,
     it('9. Нажмите “Reset Form”', function () {
         userRegistrationForm.buttonResetFormClick();
         // Comparison of expected and actual results
-        expect(userRegistrationForm.inputNameCheckValue(dataForTest.vedurf0011.user1.name));
-        expect(userRegistrationForm.inputAddressCheckValue(dataForTest.vedurf0011.user1.address));
-        expect(userRegistrationForm.inputEmailCheckValue(dataForTest.vedurf0011.user1.email));
+        expect(userRegistrationForm.inputNameCheckValue(''));
+        expect(userRegistrationForm.inputAddressCheckValue(''));
+        expect(userRegistrationForm.inputEmailCheckValue(''));
     });
 });

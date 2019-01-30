@@ -1,13 +1,14 @@
 let userRegistrationForm = require('../PO/UserRegistrationForm');
-let listOfUsers = require('../PO/ListOfUsers');
+let tableOfUsers = require('../PO/TableOfUsers');
 let dataForTest = require('../Fixtures/dataForTests');
 
 describe('VEDURF0006: Кнопка “Add” добавляет заполненные на форме FormName данные пользователя в таблицу TableName',
     function () {
-    it('1. Откройте HomePage (http://localhost:8080/TestAppExample/index)', function () {
-        userRegistrationForm.getHomePage();
+    it('1. Откройте HomePage', function () {
+        browser.navigate().to(dataForTest.url);
+        browser.waitForAngular();
         // Comparison of expected and actual results
-        expect(browser.getCurrentUrl()).toEqual('http://localhost:8080/TestAppExample/index');
+        expect(browser.getCurrentUrl()).toEqual(dataForTest.url);
     });
 
     it('2. Заполните поля “Name”, “Email” и “Address” корректными данными', function () {
@@ -24,7 +25,7 @@ describe('VEDURF0006: Кнопка “Add” добавляет заполнен
     it('4. Нажмите на кнопку “Add”', function () {
         userRegistrationForm.buttonSubmitClick();
         // Comparison of expected and actual results
-        listOfUsers.tableLastRowDataCheck(
+        tableOfUsers.tableLastRowDataCheck(
             dataForTest.vedurf0006.name, dataForTest.vedurf0006.address, dataForTest.vedurf0006.email);
     });
 });

@@ -2,10 +2,11 @@ let userRegistrationForm = require('../PO/UserRegistrationForm');
 let dataForTest = require('../Fixtures/dataForTests');
 
 describe('VEDURF0001: Минимальная длина введённых данных в поле "Name" = 3', function () {
-    it('1. Откройте HomePage (http://localhost:8080/TestAppExample/index)', function () {
-        userRegistrationForm.getHomePage();
+    it('1. Откройте HomePage', function () {
+        browser.navigate().to(dataForTest.url);
+        browser.waitForAngular();
         // Comparison of expected and actual results
-        expect(browser.getCurrentUrl()).toEqual('http://localhost:8080/TestAppExample/index');
+        expect(browser.getCurrentUrl()).toEqual(dataForTest.url);
     });
 
     it('2. Введите в поле “Name” Name1 (негативный тест)', function () {

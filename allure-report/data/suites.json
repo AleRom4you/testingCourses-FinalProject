@@ -5,39 +5,51 @@
     "name" : "VEDURF0001: Минимальная длина введённых данных в поле \"Name\" = 3",
     "children" : [ {
       "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
-      "uid" : "99e74e3ea369ca7",
+      "uid" : "99fd49cfac14a57a",
+      "parentUid" : "922926e982ea1807dfa07ac109f054be",
+      "status" : "failed",
+      "time" : {
+        "start" : 1548864520454,
+        "stop" : 1548864521309,
+        "duration" : 855
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "1. Откройте HomePage",
+      "uid" : "b5bfc2bf8c02b33d",
       "parentUid" : "922926e982ea1807dfa07ac109f054be",
       "status" : "passed",
       "time" : {
-        "start" : 1546855667620,
-        "stop" : 1546855668735,
-        "duration" : 1115
+        "start" : 1548867623294,
+        "stop" : 1548867624394,
+        "duration" : 1100
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "2. Введите в поле “Name” Name1 (негативный тест)",
-      "uid" : "77de4beddcbab587",
+      "uid" : "64708203539d0eeb",
       "parentUid" : "922926e982ea1807dfa07ac109f054be",
       "status" : "passed",
       "time" : {
-        "start" : 1546855668736,
-        "stop" : 1546855669055,
-        "duration" : 319
+        "start" : 1548867624394,
+        "stop" : 1548867624617,
+        "duration" : 223
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "3. Введите в поле “Name” Name2 (позитивный тест)",
-      "uid" : "68ccd508b97b671f",
+      "uid" : "920d37ecf0c9f296",
       "parentUid" : "922926e982ea1807dfa07ac109f054be",
       "status" : "passed",
       "time" : {
-        "start" : 1546855669055,
-        "stop" : 1546855669332,
-        "duration" : 277
+        "start" : 1548867624617,
+        "stop" : 1548867624921,
+        "duration" : 304
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     } ],
     "uid" : "922926e982ea1807dfa07ac109f054be"
@@ -45,39 +57,51 @@
     "name" : "VEDURF0002: Валидация введённых данных в поле “Name” работает корректно",
     "children" : [ {
       "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
-      "uid" : "90f97d6389a08c71",
+      "uid" : "527b642e4e2b1c0d",
       "parentUid" : "8fd5958b096371eedee184705358ee44",
       "status" : "passed",
       "time" : {
-        "start" : 1546855669379,
-        "stop" : 1546855669941,
-        "duration" : 562
+        "start" : 1548864630114,
+        "stop" : 1548864630535,
+        "duration" : 421
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "1. Откройте HomePage",
+      "uid" : "51707df6d4f5938e",
+      "parentUid" : "8fd5958b096371eedee184705358ee44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548867625088,
+        "stop" : 1548867625598,
+        "duration" : 510
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "2. Введите в поле “Name” любое Name из \"Invalid names\" (негативный тест)",
-      "uid" : "93e3b4e587b41dc3",
-      "parentUid" : "8fd5958b096371eedee184705358ee44",
-      "status" : "failed",
-      "time" : {
-        "start" : 1546855669941,
-        "stop" : 1546855673956,
-        "duration" : 4015
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "3. Введите в поле “Name” любое Name из \"Valid names\" (позитивный тест)",
-      "uid" : "fdb3d983307d88dd",
+      "uid" : "fbad4f983dad5513",
       "parentUid" : "8fd5958b096371eedee184705358ee44",
       "status" : "passed",
       "time" : {
-        "start" : 1546855673957,
-        "stop" : 1546855674440,
-        "duration" : 483
+        "start" : 1548867625598,
+        "stop" : 1548867625821,
+        "duration" : 223
       },
-      "flaky" : false,
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "3. Введите в поле “Name” любое Name из \"Valid names\" (позитивный тест)",
+      "uid" : "ae83a3fc0908d5ac",
+      "parentUid" : "8fd5958b096371eedee184705358ee44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548867625821,
+        "stop" : 1548867626220,
+        "duration" : 399
+      },
+      "flaky" : true,
       "parameters" : [ ]
     } ],
     "uid" : "8fd5958b096371eedee184705358ee44"
@@ -85,39 +109,51 @@
     "name" : "VEDURF0003: Формат введённых данных в поле \"Email\" обрабатывается корректно ",
     "children" : [ {
       "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
-      "uid" : "c9df8dafbfc03647",
+      "uid" : "eaae4e8a6140b14d",
       "parentUid" : "30b29e77a86dbf80f39c84c06f2b4ff6",
       "status" : "passed",
       "time" : {
-        "start" : 1546855674444,
-        "stop" : 1546855674890,
-        "duration" : 446
+        "start" : 1548864633484,
+        "stop" : 1548864633818,
+        "duration" : 334
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "1. Откройте HomePage",
+      "uid" : "f2c8c6d73ed21edc",
+      "parentUid" : "30b29e77a86dbf80f39c84c06f2b4ff6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548867626222,
+        "stop" : 1548867626741,
+        "duration" : 519
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "2. Введите в поле “Email” любой Email из \"Invalid email addresses\" (негативный тест)",
-      "uid" : "c45ac7b11612125",
-      "parentUid" : "30b29e77a86dbf80f39c84c06f2b4ff6",
-      "status" : "failed",
-      "time" : {
-        "start" : 1546855674890,
-        "stop" : 1546855676080,
-        "duration" : 1190
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "3. Введите в поле “Email” любой Email из \"Valid email addresses\" (позитивный тест)",
-      "uid" : "dc8261594aeb1a80",
+      "uid" : "c760b7f6a0c1c67",
       "parentUid" : "30b29e77a86dbf80f39c84c06f2b4ff6",
       "status" : "passed",
       "time" : {
-        "start" : 1546855676080,
-        "stop" : 1546855677881,
-        "duration" : 1801
+        "start" : 1548867626741,
+        "stop" : 1548867627586,
+        "duration" : 845
       },
-      "flaky" : false,
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "3. Введите в поле “Email” любой Email из \"Valid email addresses\" (позитивный тест)",
+      "uid" : "fa48a82bb1ff7d04",
+      "parentUid" : "30b29e77a86dbf80f39c84c06f2b4ff6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548867627586,
+        "stop" : 1548867629448,
+        "duration" : 1862
+      },
+      "flaky" : true,
       "parameters" : [ ]
     } ],
     "uid" : "30b29e77a86dbf80f39c84c06f2b4ff6"
@@ -125,39 +161,51 @@
     "name" : "VEDURF0004: Поля \"Name\" и \"Email\" являются обязательными для заполнения",
     "children" : [ {
       "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
-      "uid" : "f9cab3449d11c52b",
+      "uid" : "6a151e3aff9fc617",
       "parentUid" : "e374fec5c65b0eac3f348e7ffb0f10e0",
       "status" : "passed",
       "time" : {
-        "start" : 1546855677885,
-        "stop" : 1546855678286,
-        "duration" : 401
+        "start" : 1548864975071,
+        "stop" : 1548864975412,
+        "duration" : 341
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "1. Откройте HomePage",
+      "uid" : "59b87f564cf43892",
+      "parentUid" : "e374fec5c65b0eac3f348e7ffb0f10e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548867629522,
+        "stop" : 1548867629965,
+        "duration" : 443
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "2. Заполните поля “Name” и “Email” корректными данными",
-      "uid" : "d780f73cbceea608",
+      "uid" : "bbf21db00caf040",
       "parentUid" : "e374fec5c65b0eac3f348e7ffb0f10e0",
       "status" : "passed",
       "time" : {
-        "start" : 1546855678286,
-        "stop" : 1546855678627,
-        "duration" : 341
+        "start" : 1548867629965,
+        "stop" : 1548867630369,
+        "duration" : 404
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "3. Сотрите введённые данные",
-      "uid" : "cc4827b20f4a1b7c",
+      "uid" : "ace3da6696b64555",
       "parentUid" : "e374fec5c65b0eac3f348e7ffb0f10e0",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1546855678627,
-        "stop" : 1546855678954,
-        "duration" : 327
+        "start" : 1548867630369,
+        "stop" : 1548867630680,
+        "duration" : 311
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     } ],
     "uid" : "e374fec5c65b0eac3f348e7ffb0f10e0"
@@ -165,51 +213,63 @@
     "name" : "VEDURF0005: Кнопка “Reset Form” по нажатию очищает введенные в текстовые поля данные",
     "children" : [ {
       "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
-      "uid" : "9512bda3a0819daf",
+      "uid" : "53e9f8ed02f48ce7",
       "parentUid" : "dcda696c1ff722272f9f2ece85105735",
       "status" : "passed",
       "time" : {
-        "start" : 1546855678961,
-        "stop" : 1546855679512,
-        "duration" : 551
+        "start" : 1548864976126,
+        "stop" : 1548864976670,
+        "duration" : 544
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "1. Откройте HomePage",
+      "uid" : "5407264ff259f6d0",
+      "parentUid" : "dcda696c1ff722272f9f2ece85105735",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548867630686,
+        "stop" : 1548867631130,
+        "duration" : 444
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "2. Заполните поля “Name”, “Email” и “Address” корректными данными",
-      "uid" : "160a7b10c59ea31e",
+      "uid" : "3316e18d40142cd",
       "parentUid" : "dcda696c1ff722272f9f2ece85105735",
       "status" : "passed",
       "time" : {
-        "start" : 1546855679512,
-        "stop" : 1546855679840,
-        "duration" : 328
+        "start" : 1548867631130,
+        "stop" : 1548867631390,
+        "duration" : 260
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "3. Проверьте, что кнопка “Reset Form” доступна для нажатия",
-      "uid" : "8ffef21addcc72b7",
+      "uid" : "c5368a3c16bf0509",
       "parentUid" : "dcda696c1ff722272f9f2ece85105735",
       "status" : "passed",
       "time" : {
-        "start" : 1546855679841,
-        "stop" : 1546855679939,
-        "duration" : 98
+        "start" : 1548867631390,
+        "stop" : 1548867631506,
+        "duration" : 116
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "4. Нажмите на кнопку “Reset Form”",
-      "uid" : "c0a67281f2a9563a",
+      "uid" : "e696aa3852e6b721",
       "parentUid" : "dcda696c1ff722272f9f2ece85105735",
       "status" : "passed",
       "time" : {
-        "start" : 1546855679939,
-        "stop" : 1546855680386,
-        "duration" : 447
+        "start" : 1548867631506,
+        "stop" : 1548867631967,
+        "duration" : 461
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     } ],
     "uid" : "dcda696c1ff722272f9f2ece85105735"
@@ -217,51 +277,63 @@
     "name" : "VEDURF0006: Кнопка “Add” добавляет заполненные на форме FormName данные пользователя в таблицу TableName",
     "children" : [ {
       "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
-      "uid" : "fd770be6fa08ee8f",
+      "uid" : "a6850ba7a73cb472",
       "parentUid" : "00b0844df9ec66aca5898757574a2c48",
       "status" : "passed",
       "time" : {
-        "start" : 1546855680394,
-        "stop" : 1546855680773,
-        "duration" : 379
+        "start" : 1548864977459,
+        "stop" : 1548864977767,
+        "duration" : 308
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "1. Откройте HomePage",
+      "uid" : "a809b79188dcab10",
+      "parentUid" : "00b0844df9ec66aca5898757574a2c48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548867631969,
+        "stop" : 1548867632271,
+        "duration" : 302
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "2. Заполните поля “Name”, “Email” и “Address” корректными данными",
-      "uid" : "f6a67911fc10b862",
+      "uid" : "18d5e3f733edc432",
       "parentUid" : "00b0844df9ec66aca5898757574a2c48",
       "status" : "passed",
       "time" : {
-        "start" : 1546855680774,
-        "stop" : 1546855681079,
-        "duration" : 305
+        "start" : 1548867632271,
+        "stop" : 1548867632506,
+        "duration" : 235
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "3. Проверьте, что кнопка “Add” доступна для нажатия",
-      "uid" : "39708ef6d953af9a",
+      "uid" : "b250ccd92492c9ff",
       "parentUid" : "00b0844df9ec66aca5898757574a2c48",
       "status" : "passed",
       "time" : {
-        "start" : 1546855681079,
-        "stop" : 1546855681209,
-        "duration" : 130
+        "start" : 1548867632506,
+        "stop" : 1548867632594,
+        "duration" : 88
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "4. Нажмите на кнопку “Add”",
-      "uid" : "7f63289335b777d9",
+      "uid" : "727f57027293d71d",
       "parentUid" : "00b0844df9ec66aca5898757574a2c48",
       "status" : "passed",
       "time" : {
-        "start" : 1546855681209,
-        "stop" : 1546855681704,
-        "duration" : 495
+        "start" : 1548867632594,
+        "stop" : 1548867633149,
+        "duration" : 555
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     } ],
     "uid" : "00b0844df9ec66aca5898757574a2c48"
@@ -269,75 +341,87 @@
     "name" : "VEDURF0007: В поле “Name” должны быть введены уникальные относительно таблицы TableName данные, т.е. двух и более одинаковых имён в таблице быть не должно",
     "children" : [ {
       "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
-      "uid" : "b20712c2681fec63",
+      "uid" : "8b4f5be13c517503",
       "parentUid" : "889b0e7b6b0d1cee46ed7f35e455d4ae",
       "status" : "passed",
       "time" : {
-        "start" : 1546855681709,
-        "stop" : 1546855682116,
-        "duration" : 407
+        "start" : 1548865883326,
+        "stop" : 1548865883757,
+        "duration" : 431
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "1. Откройте HomePage",
+      "uid" : "1384f7b737e182de",
+      "parentUid" : "889b0e7b6b0d1cee46ed7f35e455d4ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548867633170,
+        "stop" : 1548867633542,
+        "duration" : 372
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "2. Заполните поля “Name”, “Email” и “Address” корректными данными",
-      "uid" : "738c449765920c86",
+      "uid" : "3599073ca5e1b088",
       "parentUid" : "889b0e7b6b0d1cee46ed7f35e455d4ae",
       "status" : "passed",
       "time" : {
-        "start" : 1546855682116,
-        "stop" : 1546855682399,
-        "duration" : 283
+        "start" : 1548867633542,
+        "stop" : 1548867633793,
+        "duration" : 251
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "3. Проверьте, что кнопка “Add” доступна для нажатия",
-      "uid" : "b25183ce647400dc",
+      "uid" : "f72068c104ab358",
       "parentUid" : "889b0e7b6b0d1cee46ed7f35e455d4ae",
       "status" : "passed",
       "time" : {
-        "start" : 1546855682399,
-        "stop" : 1546855682524,
-        "duration" : 125
+        "start" : 1548867633794,
+        "stop" : 1548867633903,
+        "duration" : 109
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "4. Нажмите на кнопку “Add”",
-      "uid" : "97e244aee9e96989",
+      "uid" : "2df7642aec486071",
       "parentUid" : "889b0e7b6b0d1cee46ed7f35e455d4ae",
       "status" : "passed",
       "time" : {
-        "start" : 1546855682525,
-        "stop" : 1546855682860,
-        "duration" : 335
+        "start" : 1548867633903,
+        "stop" : 1548867634252,
+        "duration" : 349
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "5. Заполните поля “Name” и “Email” такими же данными, как на шаге 2",
-      "uid" : "c6f2688528909cdd",
+      "uid" : "5e10d9c56f2144e2",
       "parentUid" : "889b0e7b6b0d1cee46ed7f35e455d4ae",
       "status" : "passed",
       "time" : {
-        "start" : 1546855682860,
-        "stop" : 1546855683099,
-        "duration" : 239
+        "start" : 1548867634252,
+        "stop" : 1548867634483,
+        "duration" : 231
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "6. Повторите шаги 3-4",
-      "uid" : "d03ee53f199ed5ed",
+      "uid" : "90aafeb685daeb0d",
       "parentUid" : "889b0e7b6b0d1cee46ed7f35e455d4ae",
       "status" : "passed",
       "time" : {
-        "start" : 1546855683100,
-        "stop" : 1546855683553,
-        "duration" : 453
+        "start" : 1548867634483,
+        "stop" : 1548867634886,
+        "duration" : 403
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     } ],
     "uid" : "889b0e7b6b0d1cee46ed7f35e455d4ae"
@@ -345,87 +429,99 @@
     "name" : "VEDURF0008: Редактирование данных зарегистрированного пользователя",
     "children" : [ {
       "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
-      "uid" : "20aabecfc5f2c055",
+      "uid" : "e9b1f6b401c2336",
       "parentUid" : "388974b7ad125a913ece6d0f26297376",
       "status" : "passed",
       "time" : {
-        "start" : 1546855683558,
-        "stop" : 1546855683906,
-        "duration" : 348
+        "start" : 1548865885104,
+        "stop" : 1548865885416,
+        "duration" : 312
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "1. Откройте HomePage",
+      "uid" : "bc65be15411bca1a",
+      "parentUid" : "388974b7ad125a913ece6d0f26297376",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548867634890,
+        "stop" : 1548867635227,
+        "duration" : 337
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "2. Проверьте наличие данных в таблице TableName",
-      "uid" : "4e0aea62114339ad",
+      "uid" : "adb1221c609bbbfb",
       "parentUid" : "388974b7ad125a913ece6d0f26297376",
       "status" : "passed",
       "time" : {
-        "start" : 1546855683906,
-        "stop" : 1546855684009,
-        "duration" : 103
+        "start" : 1548867635227,
+        "stop" : 1548867635321,
+        "duration" : 94
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия",
-      "uid" : "11a74313fe08e8d9",
+      "uid" : "a5054e5fb3aa2376",
       "parentUid" : "388974b7ad125a913ece6d0f26297376",
       "status" : "passed",
       "time" : {
-        "start" : 1546855684010,
-        "stop" : 1546855684113,
-        "duration" : 103
+        "start" : 1548867635321,
+        "stop" : 1548867635486,
+        "duration" : 165
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "4. Нажмите данную кнопку",
-      "uid" : "c91d094abf436459",
+      "uid" : "320c61eb8f075bd5",
       "parentUid" : "388974b7ad125a913ece6d0f26297376",
       "status" : "passed",
       "time" : {
-        "start" : 1546855684114,
-        "stop" : 1546855684430,
-        "duration" : 316
+        "start" : 1548867635486,
+        "stop" : 1548867635814,
+        "duration" : 328
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "5. Проверьте наличие выбранных данных в полях формы FormName",
-      "uid" : "5619d00521dc1d3e",
+      "uid" : "afe6f8f898107fc6",
       "parentUid" : "388974b7ad125a913ece6d0f26297376",
       "status" : "passed",
       "time" : {
-        "start" : 1546855684430,
-        "stop" : 1546855684594,
-        "duration" : 164
+        "start" : 1548867635814,
+        "stop" : 1548867636123,
+        "duration" : 309
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "6. Введите новые корректные данные",
-      "uid" : "6a68dd259892ea49",
+      "uid" : "b4e709fa8276d4d2",
       "parentUid" : "388974b7ad125a913ece6d0f26297376",
       "status" : "passed",
       "time" : {
-        "start" : 1546855684595,
-        "stop" : 1546855684973,
-        "duration" : 378
+        "start" : 1548867636123,
+        "stop" : 1548867636444,
+        "duration" : 321
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "6. Нажмите “Update”",
-      "uid" : "4280b33d1b503d12",
+      "uid" : "3cdf249e28dc05b3",
       "parentUid" : "388974b7ad125a913ece6d0f26297376",
       "status" : "passed",
       "time" : {
-        "start" : 1546855684973,
-        "stop" : 1546855685438,
-        "duration" : 465
+        "start" : 1548867636444,
+        "stop" : 1548867636894,
+        "duration" : 450
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     } ],
     "uid" : "388974b7ad125a913ece6d0f26297376"
@@ -433,63 +529,75 @@
     "name" : "VEDURF0009: Удаление данных зарегистрированного пользователя",
     "children" : [ {
       "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
-      "uid" : "d88511a6ef17aec2",
+      "uid" : "4da9ac61f2c727ed",
       "parentUid" : "cf4e49a566f5a65cbb6803c607130359",
       "status" : "passed",
       "time" : {
-        "start" : 1546855685444,
-        "stop" : 1546855685820,
-        "duration" : 376
+        "start" : 1548865886956,
+        "stop" : 1548865887277,
+        "duration" : 321
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "1. Откройте HomePage",
+      "uid" : "61daf95d3c32f715",
+      "parentUid" : "cf4e49a566f5a65cbb6803c607130359",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548867636897,
+        "stop" : 1548867637262,
+        "duration" : 365
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "2. Проверьте наличие данных в таблице TableName",
-      "uid" : "f8470211247ea034",
+      "uid" : "9b42cb5b4fdf8593",
       "parentUid" : "cf4e49a566f5a65cbb6803c607130359",
       "status" : "passed",
       "time" : {
-        "start" : 1546855685820,
-        "stop" : 1546855685928,
-        "duration" : 108
+        "start" : 1548867637262,
+        "stop" : 1548867637341,
+        "duration" : 79
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Remove” в данной строке для нажатия",
-      "uid" : "f99d7bfe4bbe2365",
+      "uid" : "4e6cebf8186de5db",
       "parentUid" : "cf4e49a566f5a65cbb6803c607130359",
       "status" : "passed",
       "time" : {
-        "start" : 1546855685929,
-        "stop" : 1546855686041,
-        "duration" : 112
+        "start" : 1548867637341,
+        "stop" : 1548867637515,
+        "duration" : 174
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "4. Нажмите данную кнопку",
-      "uid" : "82ab4fb0d8bc59bc",
+      "uid" : "6cdf2afc349ae97e",
       "parentUid" : "cf4e49a566f5a65cbb6803c607130359",
       "status" : "passed",
       "time" : {
-        "start" : 1546855686041,
-        "stop" : 1546855686381,
-        "duration" : 340
+        "start" : 1548867637515,
+        "stop" : 1548867637872,
+        "duration" : 357
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "5. В открывшемся диалоговом окне нажмите кнопку “OK”",
-      "uid" : "aa515ecc3993d5ad",
+      "uid" : "e44ce70622c97f1d",
       "parentUid" : "cf4e49a566f5a65cbb6803c607130359",
       "status" : "passed",
       "time" : {
-        "start" : 1546855686381,
-        "stop" : 1546855686739,
-        "duration" : 358
+        "start" : 1548867637872,
+        "stop" : 1548867638256,
+        "duration" : 384
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     } ],
     "uid" : "cf4e49a566f5a65cbb6803c607130359"
@@ -497,75 +605,87 @@
     "name" : "VEDURF0010: Во время редактирования данных пользователя нельзя сохранить имя пользователя, которое уже зарегистрировано, т.е. нельзя создать дубликат имеющихся данных",
     "children" : [ {
       "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
-      "uid" : "9e59505c23a2b630",
+      "uid" : "1ee606009fa47091",
       "parentUid" : "46629042c57cabf87fb779577f499b3a",
       "status" : "passed",
       "time" : {
-        "start" : 1546855686743,
-        "stop" : 1546855687096,
-        "duration" : 353
+        "start" : 1548865888174,
+        "stop" : 1548865888500,
+        "duration" : 326
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "1. Откройте HomePage",
+      "uid" : "d8a6e89b86f2c144",
+      "parentUid" : "46629042c57cabf87fb779577f499b3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548867638260,
+        "stop" : 1548867638728,
+        "duration" : 468
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "2. Проверьте наличие данных в таблице TableName, как минимум 2 пользователя",
-      "uid" : "3d4a537ef8304547",
+      "uid" : "b000c068e477d28f",
       "parentUid" : "46629042c57cabf87fb779577f499b3a",
       "status" : "passed",
       "time" : {
-        "start" : 1546855687096,
-        "stop" : 1546855688363,
-        "duration" : 1267
+        "start" : 1548867638728,
+        "stop" : 1548867639829,
+        "duration" : 1101
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия",
-      "uid" : "f9b992955e7c994f",
+      "uid" : "bc4c805e657f6f0c",
       "parentUid" : "46629042c57cabf87fb779577f499b3a",
       "status" : "passed",
       "time" : {
-        "start" : 1546855688363,
-        "stop" : 1546855688472,
-        "duration" : 109
+        "start" : 1548867639829,
+        "stop" : 1548867639942,
+        "duration" : 113
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "4. Нажмите данную кнопку",
-      "uid" : "f90ea425f9dffbb0",
+      "uid" : "35ddf9eab79e1615",
       "parentUid" : "46629042c57cabf87fb779577f499b3a",
       "status" : "passed",
       "time" : {
-        "start" : 1546855688472,
-        "stop" : 1546855688990,
-        "duration" : 518
+        "start" : 1548867639942,
+        "stop" : 1548867640286,
+        "duration" : 344
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "5. Отредактируйте данные на форме FormName так, чтобы они были такими же, как у другого пользователя из таблицы TableName",
-      "uid" : "111d15866df89989",
+      "uid" : "615f3993eea3baae",
       "parentUid" : "46629042c57cabf87fb779577f499b3a",
       "status" : "passed",
       "time" : {
-        "start" : 1546855688990,
-        "stop" : 1546855689354,
-        "duration" : 364
+        "start" : 1548867640286,
+        "stop" : 1548867640678,
+        "duration" : 392
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "6. Нажмите “Update”",
-      "uid" : "56e60bc7d60eb0c7",
+      "uid" : "39ae698276c2f62e",
       "parentUid" : "46629042c57cabf87fb779577f499b3a",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1546855689354,
-        "stop" : 1546855689783,
-        "duration" : 429
+        "start" : 1548867640678,
+        "stop" : 1548867641144,
+        "duration" : 466
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     } ],
     "uid" : "46629042c57cabf87fb779577f499b3a"
@@ -573,111 +693,123 @@
     "name" : "VEDURF0011: Во время редактировании данных, если нажать “Reset Form” будут доступны первоначальные данные выбранного пользователя",
     "children" : [ {
       "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
-      "uid" : "272f541157fdd7e7",
+      "uid" : "25f938fa04bcc338",
       "parentUid" : "bdb4a0594be55a3d3359d16c92416fb2",
       "status" : "passed",
       "time" : {
-        "start" : 1546855689790,
-        "stop" : 1546855690183,
-        "duration" : 393
+        "start" : 1548865890955,
+        "stop" : 1548865891309,
+        "duration" : 354
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "1. Откройте HomePage",
+      "uid" : "ffb880fdce9e609c",
+      "parentUid" : "bdb4a0594be55a3d3359d16c92416fb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548867641148,
+        "stop" : 1548867641607,
+        "duration" : 459
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "2. Проверьте наличие данных в таблице TableName",
-      "uid" : "66ee54ca76e7816d",
+      "uid" : "13169bff05d92d83",
       "parentUid" : "bdb4a0594be55a3d3359d16c92416fb2",
       "status" : "passed",
       "time" : {
-        "start" : 1546855690183,
-        "stop" : 1546855690286,
-        "duration" : 103
+        "start" : 1548867641607,
+        "stop" : 1548867641725,
+        "duration" : 118
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия",
-      "uid" : "adb6739395c5828b",
+      "uid" : "f57bbfce1e68ee8a",
       "parentUid" : "bdb4a0594be55a3d3359d16c92416fb2",
       "status" : "passed",
       "time" : {
-        "start" : 1546855690286,
-        "stop" : 1546855690389,
-        "duration" : 103
+        "start" : 1548867641725,
+        "stop" : 1548867642308,
+        "duration" : 583
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "4. Нажмите данную кнопку",
-      "uid" : "b2d513f9d8df75f0",
+      "uid" : "ffcb6a17fe715402",
       "parentUid" : "bdb4a0594be55a3d3359d16c92416fb2",
       "status" : "passed",
       "time" : {
-        "start" : 1546855690389,
-        "stop" : 1546855690703,
-        "duration" : 314
+        "start" : 1548867642308,
+        "stop" : 1548867642626,
+        "duration" : 318
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "5. Проверьте, что выбранные данные доступны в полях формы FormName",
-      "uid" : "977a2d33662353f",
+      "uid" : "47512c672678972c",
       "parentUid" : "bdb4a0594be55a3d3359d16c92416fb2",
       "status" : "passed",
       "time" : {
-        "start" : 1546855690704,
-        "stop" : 1546855690884,
-        "duration" : 180
+        "start" : 1548867642627,
+        "stop" : 1548867642991,
+        "duration" : 364
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "6. Проверьте, что кнопка “Reset Form” недоступна для нажатия",
-      "uid" : "5fbb9e90fef06427",
+      "uid" : "242ba1773d22c341",
       "parentUid" : "bdb4a0594be55a3d3359d16c92416fb2",
       "status" : "passed",
       "time" : {
-        "start" : 1546855690884,
-        "stop" : 1546855690987,
-        "duration" : 103
+        "start" : 1548867642991,
+        "stop" : 1548867643327,
+        "duration" : 336
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "7. Отредактируйте любое поле формы FormName",
-      "uid" : "c0abe979e09f473f",
+      "uid" : "188d1edf4e7fbf71",
       "parentUid" : "bdb4a0594be55a3d3359d16c92416fb2",
       "status" : "passed",
       "time" : {
-        "start" : 1546855690987,
-        "stop" : 1546855691176,
-        "duration" : 189
+        "start" : 1548867643327,
+        "stop" : 1548867643459,
+        "duration" : 132
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "8. Проверьте, что кнопка “Reset Form” доступна для нажатия",
-      "uid" : "6c321b9290f04e44",
+      "uid" : "f5032352278b485f",
       "parentUid" : "bdb4a0594be55a3d3359d16c92416fb2",
       "status" : "passed",
       "time" : {
-        "start" : 1546855691176,
-        "stop" : 1546855691274,
-        "duration" : 98
+        "start" : 1548867643459,
+        "stop" : 1548867643545,
+        "duration" : 86
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "9. Нажмите “Reset Form”",
-      "uid" : "5d3c7a848aeba339",
+      "uid" : "90d6a2fcc0d42254",
       "parentUid" : "bdb4a0594be55a3d3359d16c92416fb2",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1546855691275,
-        "stop" : 1546855691727,
-        "duration" : 452
+        "start" : 1548867643546,
+        "stop" : 1548867643960,
+        "duration" : 414
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     } ],
     "uid" : "bdb4a0594be55a3d3359d16c92416fb2"
@@ -685,63 +817,75 @@
     "name" : "VEDURF0012: Нельзя удалить редактируемую в данный момент запись",
     "children" : [ {
       "name" : "1. Откройте HomePage (http://localhost:8080/TestAppExample/index)",
-      "uid" : "ae937fe2c43975af",
+      "uid" : "85e2f8e5fc2f93c9",
       "parentUid" : "941adc9e1ffcab2d2bf104b825539b95",
       "status" : "passed",
       "time" : {
-        "start" : 1546855691737,
-        "stop" : 1546855692273,
-        "duration" : 536
+        "start" : 1548865892328,
+        "stop" : 1548865892631,
+        "duration" : 303
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "1. Откройте HomePage",
+      "uid" : "9c01d1669ea9e2c1",
+      "parentUid" : "941adc9e1ffcab2d2bf104b825539b95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548867643967,
+        "stop" : 1548867644353,
+        "duration" : 386
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "2. Проверьте наличие данных в таблице TableName",
-      "uid" : "dc2fc177228cf74d",
+      "uid" : "c1b8191686f60c2f",
       "parentUid" : "941adc9e1ffcab2d2bf104b825539b95",
       "status" : "passed",
       "time" : {
-        "start" : 1546855692273,
-        "stop" : 1546855692367,
-        "duration" : 94
+        "start" : 1548867644353,
+        "stop" : 1548867644638,
+        "duration" : 285
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "3. Выберите строку в таблице с заполненными данными, запомните её номер и проверьте доступна ли кнопка “Edit” в данной строке для нажатия",
-      "uid" : "b8f40200222f51b0",
+      "uid" : "2ec7c8fda3160a9f",
       "parentUid" : "941adc9e1ffcab2d2bf104b825539b95",
       "status" : "passed",
       "time" : {
-        "start" : 1546855692367,
-        "stop" : 1546855692460,
-        "duration" : 93
+        "start" : 1548867644638,
+        "stop" : 1548867644778,
+        "duration" : 140
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "4. Проверьте доступна ли кнопка “Remove” в данной строке для нажатия",
-      "uid" : "2896ed7f3f13fded",
+      "uid" : "8466df0070567cf5",
       "parentUid" : "941adc9e1ffcab2d2bf104b825539b95",
       "status" : "passed",
       "time" : {
-        "start" : 1546855692460,
-        "stop" : 1546855692556,
-        "duration" : 96
+        "start" : 1548867644778,
+        "stop" : 1548867644885,
+        "duration" : 107
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     }, {
       "name" : "5. Нажмите кнопку “Edit”",
-      "uid" : "daa79c3d7c852cbf",
+      "uid" : "961b1fbc4e074ae8",
       "parentUid" : "941adc9e1ffcab2d2bf104b825539b95",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1546855692556,
-        "stop" : 1546855692906,
-        "duration" : 350
+        "start" : 1548867644885,
+        "stop" : 1548867645228,
+        "duration" : 343
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     } ],
     "uid" : "941adc9e1ffcab2d2bf104b825539b95"

@@ -1,18 +1,12 @@
 'use strict';
 
-var UserRegistrationForm = function() {
-    let inputName = element(by.model('controller.user.userName'));
-    let inputAddress = element(by.model('controller.user.address'));
-    let inputEmail = element(by.model('controller.user.email'));
-    let buttonSubmit = element(by.id('submit'));
-    let buttonResetForm = element(by.id('reset'));
+let UserRegistrationForm = function() {
+    let inputName = element(by.model('controller.user.userName')),
+        inputAddress = element(by.model('controller.user.address')),
+        inputEmail = element(by.model('controller.user.email')),
+        buttonSubmit = element(by.id('submit')),
+        buttonResetForm = element(by.id('reset'));
 
-    this.getHomePage= function() {
-        browser.navigate().to('http://localhost:8080/TestAppExample/index');
-        browser.waitForAngular();
-    };
-
-// Begin methods for inputName
     this.inputNameSetValue = function(value) {
         inputName.sendKeys(value);
     };
@@ -44,9 +38,7 @@ var UserRegistrationForm = function() {
     this.inputNameIsInvalidRequired = function () {
         expect(inputName.getAttribute('class')).toMatch('ng-invalid-required');
     };
-// End methods for inputName
 
-// Begin methods for inputName
     this.inputAddressSetValue = function(value) {
         inputAddress.sendKeys(value);
     };
@@ -58,9 +50,7 @@ var UserRegistrationForm = function() {
     this.inputAddressClear = function () {
         inputAddress.clear();
     };
-// End methods for inputName
 
-// Begin methods for inputEmail
     this.inputEmailSetValue = function(value) {
         inputEmail.sendKeys(value);
     };
@@ -84,9 +74,7 @@ var UserRegistrationForm = function() {
     this.inputEmailIsInvalidRequired = function () {
         expect(inputEmail.getAttribute('class')).toMatch('ng-invalid-required');
     };
-// End methods for inputEmail
 
-// Begin methods for buttonSubmit
     this.buttonSubmitIsEnabled = function () {
         expect(buttonSubmit.isEnabled()).toBe(true);
     };
@@ -98,9 +86,7 @@ var UserRegistrationForm = function() {
     this.buttonSubmitClick = function () {
         buttonSubmit.click();
     };
-// End methods for buttonAdd
 
-// Begin methods for buttonResetForm
     this.buttonResetFormIsEnabled = function () {
         expect(buttonResetForm.isEnabled()).toBe(true);
     };
@@ -112,6 +98,5 @@ var UserRegistrationForm = function() {
     this.buttonResetFormClick = function () {
         buttonResetForm.click();
     };
-// End methods for buttonResetForm
 };
 module.exports = new UserRegistrationForm();
